@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>October 10</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+	      <li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+
+
+      <div class="blog-header">
+        <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Moore-Sloan Data Science Environment Summit: A Recap</h2>
+            <p class="blog-post-meta">October 10, 2015 by <a href="../../about.html">Vicky Steeves</a></p>
+			
+			<p>This year's Moore/Sloan Data Science Environment was in the beautiful Cascade Mountains at the Suncadia Resort in Cle Elum, Washington.</p>
+						
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">RT <a href="https://twitter.com/uwescience">@uwescience</a>: <a href="https://twitter.com/hashtag/DSESummit?src=hash">#DSESummit</a> is off to a sunny start! <a href="http://t.co/fQi3EZpSdL">pic.twitter.com/fQi3EZpSdL</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/651068136075198464">October 5, 2015</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<p class="caption">Look how beautiful that is. Wow.</p>
+			
+			<p>There were a number of sessions here that were fairly typical “data science-y:” Data Structures for DS, Astrophysics Software, and Big Data Systems Tutorial. What I thought was perhaps the most interesting at the summit was this pervasive discussion about ethics and social good. I was pleasantly surprised that the participants here were interested in engaging in topics so far outside the normal purview of coding problems, data analysis methods, and data gathering. Another testament to the great multidisciplinary field that is Data Science and the wonderful people who populate it. </p>
+			
+			<p>I was really inspired by a lightning talk on Monday morning by Ariel Rokem of University of Washington’s eScience Institute on their Data Science for Social Good program, which had its inaugural summer program this past June. Based on the program with the same name at University of Chicago, the goal of the eScience Institute DSSG program is “to enable new insight by bringing together data and domain scientists to work on focused, collaborative projects that are designed to impact public policy for social benefit.”</p>
+						
+			<!--tweet about data science for social good-->
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">RT <a href="https://twitter.com/uwescience">@uwescience</a>: <a href="https://twitter.com/arokem">@arokem</a> presenting <a href="https://twitter.com/hashtag/DSSG2015?src=hash">#DSSG2015</a> at <a href="https://twitter.com/hashtag/DSESummit?src=hash">#DSESummit</a> <a href="http://t.co/pTYrxmq7Zv">pic.twitter.com/pTYrxmq7Zv</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/651384103749713920">October 6, 2015</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			
+			<p>The eScience Institute hosted four projects focusing on urban environments and urban science across topics such as transportation, social justice, and sustainable urban planning. Each project was assigned a mentor from the eScience Institute, and each team was populated by a project lead, DSSG fellows, and Alliances for Learning and Vision for underrepresented Americans (a post-freshman year internship) students. It was all about bringing together the Data Science fellows and faculty with project leads from industry along with undergraduate students.</p>
+
+			<p>Taken from the <a href="http://escience.washington.edu/what-we-do/data-science-for-social-good">eScience Institute’s DSSG webpage</a>, the four projects were:</p>
+			
+			<ol>
+				<li>Assessing Community Well-Being through Open Data and Social Media</li>
+					<ol>
+						<li>Our DSSG Fellows and ALVA students paired with Third Place Technologies to create neighborhood community report pages in the context of a hyperlocal, crowd-sourced community network. The objective was to help neighborhood communities better understand the factors that impact community well-being, and how they as a neighborhood compare with other neighborhoods on these factors. This helps them set the agenda for what to prioritize in promoting their well-being. A key aspect of this project was to explore novel ways to leverage diverse social media and open data sources to dynamically assess community-level well-being, in order to a) enable early identification of emerging social issues warranting a collective response, and to b) automatically identify and recommend the local community hubs best positioned to coordinate a community response.</li>
+						<li><a href="http://uwescience.github.io/DSSG2015-wellbeing/">Click here to read the project's full summary.</a></li>
+					</ol>
+				<li>Open Sidewalk Graph for Accessible Trip Planning</li>
+					<ol>
+						<li>This project is an extension of the "Hackcessible" project that was awarded top prize in this year's "HackTheCommute" event in Seattle. Hackcessible has built an application that helps people with mobility challenges to navigate the streets of Seattle based on sidewalk characteristics and the presence of curb ramps. Expanding on these ideas, the DSSG team worked to utilize city sidewalk and street data to provide stakeholders with routing information, similar to what is currently provided by Google Maps, but that considers issues of accessibility. The goal of the effort was to provide rapid and convenient routing that avoids steep hills, uncrossable intersections, stairs or construction. The work was carried out in partnership with Dr. Anat Caspi of the Taskar Center for Accessible Technology at the University of Washington, and with various stakeholders with the City of Seattle and the Washington State Department of Transportation.</li>
+						<li><a href="http://uwescience.github.io/DSSG_sidewalk/2015/08/28/Sidewalks-Project-Summary.html">Click here to read the project's full summary.</a></li>
+					</ol>
+				<li>Predictors of Permanent Housing for Homeless Families</li>
+					<ol>
+						<li>The Bill and Melinda Gates Foundation, together with Building Changes have partnered with King, Pierce and Snohomish counties to make homelessness in these counties rare, brief and one-time. The goal of this project was to take part in this multi-stakeholder collaboration, and to analyze data about enrollments of homeless families in these counties in programs serving the homeless population, to identify factors that predicted whether families would succeed in finding permanent housing, and to investigate the ways families transition between different programs and different episodes of homelessness.</li>
+						<li><a href="http://uwescience.github.io/DSSG2015-predicting-permanent-housing/">Click here to read the project's full summary.</a></li>
+					</ol>
+				<li>Rerouting Solutions and Expensive Ride Analysis for King County Paratransit</li>
+					<ol>
+						<li>The Paratransit team collaborated with King County Metro to improve operations of the Paratransit service, which is an on-demand public transportation program that provides door-to-door rides for people with limited ability who are unable to use traditional fixed route services. Currently, King County Metro paratransit trips cost approximately ten times as much as an equivalent trip using a fixed-route service, so the team concentrated their efforts on identifying costly routes, providing cost-driven recommendations for rescheduling broken buses, and better predicting service usage hours over quarterly periods. The team analyzed history data and observed rides whose cost per boarding was over $100, providing King County Metro with a method to update predictions of usage hours customized for each day of the week and a web app which provides cost comparison for the different options of handling a broken bus event: reschedule clients on an existing route, send a new bus, or serve them with a taxi. These tools aim to help the Paratransit operations better plan resources over longer periods of time and help dispatchers make informed decisions in case of emergency.</li>
+						<li><a href="http://uwescience.github.io/DSSG2015-paratransit/">Click here to read the project's full summary.</a></li>
+					</ol>
+			</ol>
+			
+			<p></p>
+			
+			<p>I had a total Twilight Zone moment on Tuesday during a session entitled “Semantics of Data: Integrating Across Tools.” I attended because I thought the discussion was surrounding how the data scientists here want to communicate their tools using standard vocabularies.</p>
+			
+			<p>I was pretty close--however my scope was off.  These scientists talked for ONE HOUR AND A HALF on building standard vocabularies, ontologies, metadata schemas, json-schema. I was near-faint from surprise.</p>
+			
+			<!--tweet about scientists and standard vocabs-->
+			<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I think I hit my head on my way to this talk because scientists are talking about ontologies and linked data...willingly... <a href="https://twitter.com/hashtag/DSESummit?src=hash">#DSESummit</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/651526913098252288">October 6, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+			<p>I love these projects. These students are committed to improving their communities through integrating what they know about all the multidisciplinary fields that make up data science. The real-world applications of their work are just incredible. I think this speaks to almost a moral obligation of science to not only contribute to the greater body of human knowledge, but also to improve the standard of living globally. For more on this, I’d point you to a <a href="http://dssg.io/2015/09/18/ethics-checklist.html">great article</a> by Alan Fritzler, project manager for the DSSG program at University of Chicago. </p>
+			
+			<hr/>
+			
+			<p>I had a total Twilight Zone moment on Tuesday during a session entitled “Semantics of Data: Integrating Across Tools.” I attended because I thought the discussion was surrounding how the data scientists here want to communicate their tools,  or possibly create a directory of tools cross-institutionally to track outputs of the MSDSE.</p>
+			
+			<p>I was pretty wrong. These scientists talked for AN HOUR AND A HALF on building standard vocabularies, ontologies, metadata schemas, using json-schema, and the semantic web (read: linked data). I was near-faint from surprise.</p>
+			
+			<p>However, the tone of the conversation left me wondering--where else are the overlaps between science needs and library services? We’ve identified in the LIS field that things like infrastructure (institutional repositories, etc.) are resources for research that should be housed in the library, but where are the boots on the ground librarians? These collaborations are tricky, but maybe they are starting to reach that point of critical mass where we just have to get down to it. Where are my science metadata librarians at? I smell a new field...</p>
+			
+			<!--tweet from me about getting them to let librarians help-->
+			<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">&quot;my field is changes too much to use a standard vocab&quot; feels like a cop out. Talk to librarians &amp; let us help you make ontologies <a href="https://twitter.com/hashtag/DSESummit?src=hash">#DSESummit</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/651528382572662784">October 6, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+			<p>That tweet being said, I firmly believe that this is something where librarians (those into metadata--here’s looking at you, <a href="https://twitter.com/peggygriesinger">Peggy</a>) can collaborate with science to build these vocabularies and schemas. The plain fact of the matter is that the everyday researcher is not equipped to build these ontologies, nor do they really want to--and frankly I don’t blame them. Librarians (read: information professionals) have these skills, want to do the work, and LIS is a service industry. Take advantage of us, science!</p>
+		
+			<p>However, there was a lot of room in the schedule for hilarity. Between David Hogg’s constant delight in our “obedience” in following directions for lunch seating and another great lightning talk Monday morning on improving the quality of the field (see tweet below), the tone of this conference was jovial, scholarly, and just plain fun. I’m excited for NYU to host next years! Here’s hoping we get a place in the Catskills...</p>
+			
+			<!--tweet about calling bullshit-->
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Critical Thinking Pyramid *coughcoughI&#39;mCallingBULLSHITcoughcough* <a href="https://twitter.com/hashtag/DSESummit?src=hash">#DSESummit</a> <a href="http://t.co/ab6TIB0s6H">pic.twitter.com/ab6TIB0s6H</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/651075713072791552">October 5, 2015</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<p class="caption">this right here...</p>
+			
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+        <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="dec16.html">December 2015</a></li>
+			  <li><a href="nov20.html">November 2015</a></li>
+			  <li><a href="#">October 2015</a></li>
+              <li><a href="sep21.html">September 2015</a></li>
+              <li><a href="aug14.html">August 2015</a></li>
+              <li><a href="jun2.html">June 2015</a></li>
+              <li><a href="may1.html">May 2015</a></li>
+              <li><a href="apr14.html">April 2015</a></li>
+              <li><a href="mar24.html">March 2015</a></li>
+              <li><a href="feb12.html">February 2015</a></li>
+              <li><a href="jan14.html">January 2015</a></li>
+              <li><a href="../2014/dec18.html">December 2014</a></li>
+              <li><a href="../2014/nov10.html">November 2014</a></li>
+              <li><a href="../2014/oct23.html">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

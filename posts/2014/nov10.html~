@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>November 10</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+		<li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+
+
+      <div class="blog-header">
+      <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Prove Yourself: Needs Assessment Edition</h2>
+            <p class="blog-post-meta">November 10, 2014 by <a href="../../about.html">Vicky Steeves</a>for the NDSR-NY Residents' Blog. <a href="http://ndsr.nycdigital.org/prove-yourself-needs-assessment-edition/">See original posting here.</a></p>
+			
+			<p>What I’ve come to love about the library science field (which after years of waiting tables you’d think I’d hate) is the service aspect to everything we do. Librarians are intensely user-focused in all of our work: through the use of needs assessment surveys, we mold our libraries to what users want, expect, and need. We use the results to design programs, buy technology, even create positions within a library (YA librarian is a thing because of that!). Some common ways to implement a library assessment include  focus groups, interviews, scorecards, comment cards, usage statistics from circulation and reference, and surveys sent to users via email or on paper.</p>
+
+				<p>This past week, I attended a workshop with the fabulous <a href="http://ndsr.nycdigital.org/author/jkim/">Julia Kim</a> at <a href="http://metro.org/">METRO</a> that focused on the implementation and design aspects of surveying, called “Assessment in Focus: Designing and Implementing an Effective User Feedback Survey.” The presenter, <a href="https://www.linkedin.com/in/nisabakkalbasi">Nisa Bakkalbasi</a>, the <a href="https://library.columbia.edu/bts/assessment.html">assessment coordinator</a> at <a href="http://library.columbia.edu/">Columbia University Libraries/Information Services</a>, was a former statistician and presented on the many ways one could glean statistically valuable quantitative data from simple survey questions.</p>
+
+				<p>The first part of this workshop dealt with the assessment process and types of survey questions, while the second dealt mainly with checking your results for errors. I will focus here on the first part, which is about data gathering and question manufacturing.</p>
+
+				<p>I will touch briefly on the assessment process by saying this: all the questions asked should be directly relatable to all the objectives laid out in the beginning of the process. Also, that surveying is an iterative process, and as a library continues to survey its users, the quality of the survey to get valuable results will also increase.</p>
+
+				<div align="center"><a href="http://libraryassessment.org/bm~doc/Bakkalbasi_Nisa_2012_2.pdf"><img src="../../img/assessment.png" alt="Assessment" width="50%" height="50%"></a></div>
+
+				<p>While my work at AMNH is conducted solely through interviews, I found that the discussion Nisa had on the types of questions used in survey design was particularly helpful. She focused the session on closed-end questions, because there is no way to get quantitative data from open-ended questions. All the results can say is “the majority of respondents said XYZ,” as opposed to closed-ended questions where in the results its “86% of respondents chose X over Y and Z.” This emphasize was extremely important, because real quantifiable data is the easiest to work with when putting together results to share in an institution.</p>
+
+				<p>When designing survey questions, it is important to keep a few things in mind:
+				<ul>
+					<li>Ask one thing at a time</li>
+					<li>Keep questions (and survey!) short and to the point</li>
+					<li>Ask very few required questions</li>
+					<li>Use clear, precise language (think The Giver!)</li>
+					<li>Avoid jargon and acronyms!</li>
+				</ul></p>
+				
+				<p>The two most common closed-ended questions are multiple choice questions:</p>&nbsp;
+
+				<img src="../../img/multiple-choice.png" alt="Multiple Choice">
+
+				<p>and rating scale questions:</p>&nbsp;
+
+				<img src="../../img/rating-scale.png" alt="Rating Scale">
+
+				<p>For multiple choice questions, it is important to include all options without any overlap. The user should not have to think about whether they fit into two of the categories or none at all. For rating scales, my biggest takeaway was the use of even points for taking away any neutrality. While forcing people to have opinions is considered rude at the dinner table, it is crucial to the success of a survey project.</p>
+
+				<img src="../../img/zapp.jpg" alt="Zapp Brannigan" align="right" height="40%" width="40%">
+
+				<p>Both of these types of questions (and all closed-ended questions) allow for easy statistical analysis. By a simple count of answers, you have percentage data that you can then group by other questions, such as demographic questions (only use when necessary! sensitive data is just that--sensitive) or other relevant identifying information.</p>
+
+				<p>In terms of results, this can be structured like: “78% of recipients who visit the library 1-4 times a week said that they come in for group study work.” These are two questions: what is your primary use of the library, and how often do you come in, both multiple choice. These provide measurable results, critically important in libraryland and something librarians can utilize and rely heavily upon.</p>
+
+				<p>I also want to briefly discuss more innovative ways libraries can begin to use this incredible tool. Proving value--the library’s value, that is. Libraries traditionally lose resources in both space and funding due to a perceived lack of value by management, the train of thought usually that since libraries aren't money-makers, it inherently has less value to the institution.</p>
+
+				<p>We as librarians know this to be both ludicrous and false. And we need to prove it. If the result the library is looking for says something like “95% of recipients said that they could not have completed their work without the use of the library,” then that is a rating scale question waiting to happen. And an incredible way to quantitatively prove value to upper management.</p>
+
+				<div align="center"><img src="../../img/impact.png" alt="Impact Graphic"></div>
+
+				<p>Quantitative data gathered via strategic surveying of user groups can be a powerful tool that librarians can--and should!--use to demonstrate their value. In business decisions, the hard numbers do more than testimonials. Library directors and other leaders could have access to materials that allow them to better represent the library to upper management on an institution-wide level. This can be the difference between a library closure and a library expansion, especially in institutions where funding can be an issue.</p>
+
+				<p>Librarians can and should use these surveys for their own needs, both internally for library services and externally on an institution-wide scale. Whether you are a public library trying to prove why you need a larger part of the community’s budget, or a corporate library vying for that larger space in the office, the needs assessment survey can prove helpful to cementing the importance of a library as well as development of library programs.</p>
+
+				<p>In the words of Socrates, “an unexamined life is not worth living.”</p>
+			
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+       <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="../2015/dec16.html">December 2015</a></li>
+			  <li><a href="../2015/nov20.html">November 2015</a></li>
+			  <li><a href="../2015/oct10.html">October 2015</a></li>
+              <li><a href="../2015/sep21.html">September 2015</a></li>
+              <li><a href="../2015/aug14.html">August 2015</a></li>
+              <li><a href="../2015/jun2.html">June 2015</a></li>
+              <li><a href="../2015/may1.html">May 2015</a></li>
+              <li><a href="../2015/apr14.html">April 2015</a></li>
+              <li><a href="../2015/mar24.html">March 2015</a></li>
+              <li><a href="../2015/feb12.html">February 2015</a></li>
+              <li><a href="../2015/jan14.html">January 2015</a></li>
+              <li><a href="dec18.html">December 2014</a></li>
+              <li><a href="#">November 2014</a></li>
+              <li><a href="oct23.html">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

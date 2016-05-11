@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>April 14</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+		<li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+
+      <div class="blog-header">
+        <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Project Update: DONE WITH ANALYSIS</h2>
+            <p class="blog-post-meta">April 14, 2015 by <a href="../../about.html">Vicky Steeves</a> for the NDSR-NY Residents' Blog. <a href="http://ndsr.nycdigital.org/project-update/">See original posting here.</a></p>
+			
+			<p>Originally, I had my presentation scheduled for about 10 minutes but due to time constraints on the agenda, it was shortened to five. This meant I speed-talked my way through all the analyses I had finished the Friday before (April 3) while hoping to impress on everyone there that the risk of data loss is not only imminent, but inevitable. Given the questions and comments I received directly after my presentation and in the week to come, I can say this presentation was a definite success.</p>
+
+			<p>For the Residency itself, all I have left to do is my final report--this is a compilation of my previous reports and analyses with recommendations for storage, management, and preservation of the Museum’s vast scientific collections and research data. These previous reports include: a plan for the length of retention for digital assets, an environmental scan to see what other similar institutions are doing for their data, and an overview of what federal agencies fund AMNH research, and whether those agencies require data management plans or not. All these previous reports will come together to form my recommendations as well as provide the Museum with the information it needs to understand and interpret my recommendations.</p>
+
+			<div align="center"><img src="../../img/DigiMan.jpg" height="30%" width="30%" alt="DigiMan">
+			<p class="caption">DigiMan knows what's up</p></div>
+
+			<p>From there, I will take the results of my survey and translate them into functional requirements I believe should be met by the Museum.  This will be the final half of the report. What I anticipate taking up the bulk of the report are my findings and analytical work. This is the evidence for my recommendations and must be given the majority of emphasis. Translating my enormous excel sheet of results into nicely graphic'd and verbal will be a task worthy of its two month timeline for sure.</p>
+
+			<p>This Friday, I will fulfill my last requirement for NDSR. This is my enrichment session--basically a way for the Residents to get experience planning events. I will take the other Residents up to the AMNH Research Library for a presentation on the types of data at risk at the Museum, and current strategies for preservation of such data.</p>
+
+			<div align="center"><img src="../../img/ct.jpg" height="30%" width="30%" alt="CT in MIF">
+			<p class="caption">CT Machine at the MIF @ the AMNH!</p></div>
+		
+
+			<p>After this, I will give them a snapshot into the research process by taking them down to the Microscopy and Imaging Facility for an in-depth look at how research using the CT Scanner works. Think of a “cooking show” type of presentation that shows each data at each step of the process, with an eye toward management of that data. This could have only been achieved with the collaboration of the exceptional MIF staff, whom I will now publicly thank: Morgan, and Henry--thank you!</p>
+
+			<p>So as you can see--the life of a Resident is busy and the work is always flowing never ending. However, with two months left at the AMNH, I can only hope that time starts to slow down and I can have a small infinity within the remaining months.</p>
+
+			
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+       <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="dec16.html">December 2015</a></li>
+			  <li><a href="nov20.html">November 2015</a></li>
+			  <li><a href="oct10.html">October 2015</a></li>
+              <li><a href="sep21.html">September 2015</a></li>
+              <li><a href="aug14.html">August 2015</a></li>
+              <li><a href="jun2.html">June 2015</a></li>
+              <li><a href="may1.html">May 2015</a></li>
+              <li><a href="#">April 2015</a></li>
+              <li><a href="mar24.html">March 2015</a></li>
+              <li><a href="feb12.html">February 2015</a></li>
+              <li><a href="jan14.html">January 2015</a></li>
+              <li><a href="../2014/dec18.html">December 2014</a></li>
+              <li><a href="../2014/nov10.html">November 2014</a></li>
+              <li><a href="../2014/oct23.html">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+	  <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>August 14</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+		<li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+
+      <div class="blog-header">
+        <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Preserving Scientific Research Data at the American Museum of Natural History</h2>
+            <p class="blog-post-meta">August 14, 2015 by <a href="../../about.html">Vicky Steeves</a> or the SAA Museum & Archives Section Newsletter. <a href="http://www2.archivists.org/sites/all/files/MAS%20Newsletter%20Summer%202015-new.pdf">See original posting here.</a></p>
+			
+			<p>As the National Digital Stewardship Resident at the American Museum of Natural History, I was introduced to the very specific problems facing museum librarians and archivists not only through observing the Research Library, but by speaking individually with some of the most intensive data creators at the Museum. As a part of my larger needs assessment project at the Museum, I created a semi-structured interview guide that I used to enter into a targeted dialogue with scientific staff members, covering all aspects of their digital research and collections data. Topics included the volume of their data, its rate of growth, format types, necessary software and hardware support, management practices, and opinions on preservation of their data (i.e. what data they believe is important in the long-term). I interviewed close to 60 staff members in total, including all the curators in the five Science divisions at the Museum: Anthropology, Invertebrate Zoology, Paleontology, Physical Sciences, and Vertebrate Zoology.</p>
+			
+			<p>During the course of my analysis, I discovered not only the sheer volume of data (with a substantial number of curators generating many terabytes a day!) but also the diversity of said data, for both research purposes and within collections. This is a big data problem that many research museums are facing. Looking at the AMNH, diversity of data is found not only in the macrocosm of the Museum’s five Science divisions, but also with each curator and research methodology.</p>
+			
+			<div align="center"><img src="../../img/inez.jpg" height="30%" width="30%" alt="Inez the DigiPres Turtle">
+			<p class="caption">The NDSR mascot, Inez the DigiPres Turtle, look-ing in on a CT scanner scanning a monkey's skull at AMNH.</p></div>
+			
+			<p>After gathering this interview data, I was tasked with analyzing it in order to make recommendations in a larger final report on three essential categories: storage, management, and preservation of digital research and collec-tions data. A related deliverable of my project was also a report on solutions other museums have developed for curat-ing their in-house research and collections data. This environmental scan showed that few natural history museums in the United States take an institutional approach to solving this challenge, largely due to re-source constraints. A popular institutional solution for collections data is Arctos, the community-driven multidisciplinary collec-tion management information system that was developed as a collaboration among multiple institutions and currently holds three million natural history museum re-cords. However for research data, fewer such solutions exist for natural science research and are in development cur-rently. The National Museum of Natural History and the British Natural History Museum are both growing their digital preservation program by building institutional repositories to house their respective research data.</p>
+			
+			<p>As I continued to develop my AMNH-specific recommendations for storage, management, and preservation of digital research and collections data, I remained cognizant of the community implications. This final report is still a working docu-ment, now totaling over 100 pages. It is my hope that through at least publicly releasing my semi-structured interview guide (which will be in my public NDSR report to be released in the coming weeks), that other natural science muse-ums can pursue the same needs assess-ment procedure to understand the ex-tent and scope of their own digital data—and in doing so, have the opportu-nity to advocate and educate for and on digital preservation in their own institu-tions. Only when there is institutional support can larger community-driven resources be developed and the risk of data loss minimized. </p>
+			
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+        <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="dec16.html">December 2015</a></li>
+			  <li><a href="nov20.html">November 2015</a></li>
+			  <li><a href="oct10.html">October 2015</a></li>
+              <li><a href="sep21.html">September 2015</a></li>
+              <li><a href="#">August 2015</a></li>
+              <li><a href="jun2.html">June 2015</a></li>
+              <li><a href="may1.html">May 2015</a></li>
+              <li><a href="apr14.html">April 2015</a></li>
+              <li><a href="mar24.html">March 2015</a></li>
+              <li><a href="feb12.html">February 2015</a></li>
+              <li><a href="jan14.html">January 2015</a></li>
+              <li><a href="../2014/dec18.html">December 2014</a></li>
+              <li><a href="../2014/nov10.html">November 2014</a></li>
+              <li><a href="../2014/oct23.html">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

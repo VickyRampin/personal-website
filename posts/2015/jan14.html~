@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>January 14</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+		<li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+
+
+      <div class="blog-header">
+        <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Library Advocacy</h2>
+            <p class="blog-post-meta">January 14, 2015 by <a href="../../about.html">Vicky Steeves</a> for the NDSR-NY Residents' Blog. <a href="http://ndsr.nycdigital.org/library-advocacy/">See original posting here.</a></p>
+			
+			<p>Everyone reading my posts must be saying, “Damn, this girl is obsessed with proving the value of the library! We get it already!” Blame <a href="http://www.simmons.edu/slis/faculty/fulltime/matarazzo.php" target="_blank">Jim Matarazzo</a>, my corporate libraries professor back at <a href="http://www.simmons.edu/slis/" target="_blank">Simmons</a>. He really drilled it into my head that if a library can’t prove that it’s worth having, it will be the first thing cut from a budget. And it scared me into constantly thinking about it. Thanks, Jim!</p>
+
+			<p><a href="http://ndsr.nycdigital.org/prove-yourself-needs-assessment-edition/" target="_blank">In my last NDSR-NY post</a>, I described how the needs assessment survey can be utilized to show value on an institutional level, in the setting of meetings with business operatives and institutional leaders. In my <a href="http://blogs.loc.gov/digitalpreservation/2014/11/the-value-of-the-ndsr-residents-and-mentors-weigh-in/" target="_blank">blog post for the SIGNAL</a>, I wrote about how programs like NDSR can prove their value on an interdisciplinary level as well as to the LIS field.</p>
+
+			<p>In this post, I’m going to discuss the day-to-day bias that libraries and librarians face within their user groups. It’s something I’ve dealt with as the resident at the AMNH, and as such I’ve had to do a lot of advocacy work at the “ground level.”  With librarians becoming increasingly digitally proficient and offering new digital services, a common question many face is: “Why is the library doing this? Isn’t this an IT thing?”</p>
+
+			<div align="center"><img src="../../img/marian.jpg" height="30%" width="30%" alt="Marian the Librarian">
+			<p class="caption">I am not Marian the Librarian!</p></div>
+
+			<p>No. It’s not an IT thing. While all the back-end work, such as physically setting up servers and maintaining them is under IT’s jurisdiction, it is the information professionals who make all the ones and zeroes stored there discoverable and readable to users. Other misconceptions are that IT is responsible for making sure your data isn’t corrupted. It’s not. The job of IT ends at the storage, security (keeping out unwanted hackers, firewalls, etc.), and maintenance of hardware.</p>
+
+			<p>Where librarians excel in the technological world is in management and preservation. We can organize your digital objects, create systems to put it in where its searchable and accessible on a wide scale, and then preserve the most important 2-4% through techniques created <i>within our field</i>. Preservation metadata doesn’t add itself, nor does IT want to add to their already ridiculously long laundry list of things to do. I’ve worked so many IT jobs, just take it from me: they do not want the job of a systems engineer or a networking administrator AND a librarian.</p>
+
+			<div align="center"><img src="../../img/digitalArchive.png" alt="Digital Archive">
+			<p class="caption">Librarians are becoming increasingly into the digital.</p></div>
+
+			<p>Nor should librarians work solely in analog materials anymore. With so much born-digital material being created daily, we need to be involved in its organization and management or data loss is a big concern. <a href="http://blogs.loc.gov/digitalpreservation/2014/09/were-all-digital-archivists-now-an-interview-with-sibyl-schaefer/" target="_blank">This interview</a> with Sibyl Schaefer in the SIGNAL paints this idea perfectly; she says “we don’t all need to be digital archivists, but we do need to be archivists who work with digital materials.”</p>
+
+			<p>We need to help cultivate a culture that trusts librarians with both analog and digital materials. Libraries are a service, and as such we as librarians need to make known and understood the services we offer. This is done usually through interpersonal communication, in email, phone, text, IM, or face-to-face. Each of these interactions provide the librarian a great opportunity to explain why the services they and the library offer are only available through them. A few sentences here and there spawn larger conversations where we can continue to prove our knowledge and worth as digitally proficient staff. From there, institutional culture and indeed, wider stereotypes of librarians as stodgy old women can finally, finally end.</p>
+			
+			
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+        <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="dec16.html">December 2015</a></li>
+			  <li><a href="nov20.html">November 2015</a></li>
+			  <li><a href="oct10.html">October 2015</a></li>
+              <li><a href="sep21.html">September 2015</a></li>
+              <li><a href="aug14.html">August 2015</a></li>
+              <li><a href="jun2.html">June 2015</a></li>
+              <li><a href="may1.html">May 2015</a></li>
+              <li><a href="apr14.html">April 2015</a></li>
+              <li><a href="mar24.html">March 2015</a></li>
+              <li><a href="feb12.html">February 2015</a></li>
+              <li><a href="#">January 2015</a></li>
+              <li><a href="../2014/dec18.html">December 2014</a></li>
+              <li><a href="../2014/nov10.html">November 2014</a></li>
+              <li><a href="../2014/oct23.html">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

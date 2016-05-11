@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>September 21</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+	      <li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+      <div class="blog-header">
+       <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Debrief: My First Two Months at NYU</h2>
+            <p class="blog-post-meta">September 21, 2015 by <a href="../../about.html">Vicky Steeves</a></p>
+			
+			<p>So, for those who don’t follow me on Twitter (go ahead though, <a href="https://twitter.com/VickySteeves"@VickySteeves</a>), I recently accepted a position at New York University, <a href="http://library.nyu.edu/">Division of Libraries</a>, as the Librarian for Research Data Management and Reproducibility. I started August 3rd of this year, which turned out to be great because there were no students around. This may sound bad, but the prep time was invaluable. My partner-in-crime <a href="http://www.nmwolf.net/">Nick Wolf</a> came two weeks later, and together we really amped up the existing <a href="http://guides.nyu.edu/data_management">data management LibGuide</a>.</p>
+			
+			<p>When September rolled around, I was hit with a visual on just how gigantic a school NYU really is. Seeing all the students streaming into the library, I was hit with the scope of my work here. Nick and I were supposed to build up services around research data management/data management planning for literally everyone on campus, from staff to students to faculty. Of course to start we will focus on a few core user communities and build our way out, but just wow--even starting on building services for grad students, for example, is an awesome task.</p>
+
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">It&#39;s 100% nameplate official!! If you need help managing your data, come up to the Bobst Library and visit me! <a href="https://twitter.com/hashtag/NYU?src=hash">#NYU</a> <a href="http://t.co/zLTNPbJbFP">pic.twitter.com/zLTNPbJbFP</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/649978478763343872">October 2, 2015</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			
+			<p>However, that being said, I am absolutely in love with the work environment here. Everyone is so collaborative and service-oriented, and the office just has a really positive energy to it. I have a feeling I’m going to have many successes here simply feeding off all the forward-thinking spirit that is in the research commons.</p>
+			
+			<p>What’s perhaps most interesting about my position here at NYU is that I’m a joint appointment between the NYU Division of Libraries and NYU’s <a href="http://cds.nyu.edu/">Center for Data Science</a>. The CDS is a multidisciplinary center dedicated to data science training and research. Data science is an interdisciplinary field dedicated to extracting knowledge from big data, focusing on processes and systems. As such, there are many interactions between statistics, machine learning, computer science, natural science, and even social science.</p>
+			
+			<p>The CDS is a great place for me as a RDM Librarian because of the multidisciplinary nature of the work: there are so many collaborators from so many departments within NYU from anthropology to physics, and so a lot of opportunities to spread the good word of research data management, open science, and reproducible research practices.</p>
+			
+			<p>I am working directly to support the Moore-Sloan Data Science Environment, which is a grant NYU collaborates on with University of California, Berkeley, and the University of Washington. This has been a huge help to my strategic plan to integrate library services into the CDS. <a href="http://escience.washington.edu/">The eScience Institute</a> (UWashington) and <a href="http://bids.berkeley.edu/">the Berkeley Institute for Data Science</a> (UC Berkeley) are both housed in the respective libraries, so library services around data science have been integrated from the start. I’m the first librarian at NYU whose job description includes building services for the CDS, so being able to talk to the other librarians at Berkeley and Washington has been absolutely invaluable. </p>
+			
+			<p>Another thing--it feels good to be back around computer scientists. I really missed that in library school and my work at the AMNH (even though goodness knows I hung around IT a lot...). There is a purity in science that I just love to be around. It’s definitely why I am a science librarian. Plus, like everyone at NYU Libraries, the people at the CDS are very open to collaborating and helping me navigate my new position in my new environment. They even got me a gift!!</p>
+			
+				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Today I started at my 2nd office, <a href="https://twitter.com/hashtag/NYU?src=hash">#NYU</a> Poly! What a welcome! Excited to work on <a href="https://twitter.com/hashtag/reproducibility?src=hash">#reproducibility</a> w/ <a href="https://twitter.com/hashtag/MS?src=hash">#MS</a> <a href="https://twitter.com/hashtag/DSE?src=hash">#DSE</a> folks <a href="http://t.co/SIg7GMu0tL">pic.twitter.com/SIg7GMu0tL</a></p>&mdash; Vicky Steeves (@VickySteeves) <a href="https://twitter.com/VickySteeves/status/649317858179174400">September 30, 2015</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			
+			<p>I couldn’t be happier with my choice to stay in New York and take this job at NYU. As with all major decisions, there was a nervousness about accepting that I had a hard time shaking--I’m a chronic overthinker. Even in the first two months, that has been totally assuaged. I know that being here is the right thing for me, and that peace of mind has been the best thing to come from my initial time here.</p>
+			
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+       <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="dec16.html">December 2015</a></li>
+			  <li><a href="nov20.html">November 2015</a></li>
+			  <li><a href="oct10.html">October 2015</a></li>
+              <li><a href="#">September 2015</a></li>
+              <li><a href="aug14.html">August 2015</a></li>
+              <li><a href="jun2.html">June 2015</a></li>
+              <li><a href="may1.html">May 2015</a></li>
+              <li><a href="apr14.html">April 2015</a></li>
+              <li><a href="mar24.html">March 2015</a></li>
+              <li><a href="feb12.html">February 2015</a></li>
+              <li><a href="jan14.html">January 2015</a></li>
+              <li><a href="../2014/dec18.html">December 2014</a></li>
+              <li><a href="../2014/nov10.html">November 2014</a></li>
+              <li><a href="../2014/oct23.html">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

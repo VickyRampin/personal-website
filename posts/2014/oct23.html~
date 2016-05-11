@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>October 23</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/vis.css" rel="stylesheet">
+ </head>
+
+  <body>
+  
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Vicky Steeves</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../about.html">About</a></li>
+		<li><a href="../../resume.html">Resume</a></li>
+              <li><a href="../../blog.html">Blog</a></li>
+                <!--dropdown-->
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://osf.io/7mj2q/" target="_blank">Open Science Framework</a></li>
+					  <li><a href="https://github.com/steevesv/" target="_blank">GitHub</a></li>
+                </ul>
+              </li>
+	      <!--end dropdown-->
+               <!--dropdown-->
+			    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					  <li><a href="https://twitter.com/VickySteeves" target="_blank">Twitter</a></li>
+					  <li><a href="https://www.instagram.com/vickysteeves/" target="_blank">Instagram</a></li>
+					  <li><a href="https://www.linkedin.com/in/victoriaisteeves" target="_blank">LinkedIn</a></li>
+				</ul>
+              </li>
+              <!--end dropdown-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>	
+
+
+
+      <div class="blog-header">
+        <h1 class="blog-title">Data, Science, & Librarians, <br /> Oh My!</h1>
+        <p class="lead blog-description">My thoughts as I navigate the world of data librarianship.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Science: The Final Frontier</h2>
+            <p class="blog-post-meta">October 23, 2014 by <a href="../../about.html">Vicky Steeves</a> for the NDSR-NY Residents' Blog. <a href="http://ndsr.nycdigital.org/science-the-final-frontier/">See original posting here.</a></p>
+			
+			<p>Science: the final frontier. These are the voyages of Vicky Steeves. Her nine-month mission: to explore how scientific data can be preserved more efficiently at <a href="http://www.amnh.org/our-research" target="_blank">the American Museum of Natural History</a>, to boldly interview every member of science staff involved in data creation and management, to go into the depths of the Museum where none have gone before.</p>
+		
+			<p>Hi there. Digital preservation of scientific data is criminally under-addressed nationwide. Scientific research is increasingly digital and data intensive, with repositories and aggregators built everyday to house this data. Some popular aggregators in natural history include the NIH-funded <a href="http://www.ncbi.nlm.nih.gov/genbank" target="_blank">GenBank</a> for DNA sequence data and the NSF funded <a href="http://www.morphbank.net/" target="_blank">MorphBank</a> for image data of specimens. These aggregators are places where scientists submit their data for dissemination and act as phenomenal tools for data sharing, however they cannot be relied upon for preservation. </p>
+
+			<a href="http://scorpion.amnh.org/page19/page23/page23.html"><img src="../../img/scorpionLab.jpg" alt="Scorpion Lab" align="left" style="PADDING-RIGHT: 5px"></a>
+		
+			<p>Science is, at its core, the act of collecting, analyzing, refining, re-analyzing, and reusing data. Reuse and re-analysis are important parts of the evolution of our understanding of the world and the universe, so to carry out meaningful preservation, we as the digital preservationists need to equip those future users with the necessary tools to reuse said data.</p>
+		
+			<p>Therein lies the biggest challenge of digital preservation of scientific data: the very real need to preserve not only the dataset <u>but the ability to deliver that knowledge to a future user community.</u> Technical obsolescence is a huge problem in the preservation of scientific data, due in large part to the field-specific proprietary software and formats used in research. These software are sometimes even project specific, and often are not backwards compatible, meaning that a new version of the software won’t be able to open a file created in an older version. This is counter-intuitive for access and preservation.</p>
+
+			<p>Digital data are not only research output, but also input into new hypotheses and research initiatives, enabling future scientific insights and driving innovation. In the case of natural sciences, specimen collections and taxonomic descriptions from the 19th century (and earlier) are still used in modern scientific discourse and research. There is a unique concern in digital preservation of scientific datasets where the phrase “in perpetuity” has real usability and consequence, in that these data have value that will only increases with time. 100 years from now, scientific historians will look to these data to document the processes of science and the evolution of research. Scientists themselves will use these data for additional research or even comparative study: “look at the population density of this scorpion species in 2014 versus today, 2114, I wonder what caused the shift.” Some data, particularly older data, aren't necessarily replicable, and in that case, the value of the material for preservation increases exponentially.</p>
+
+			<a href="http://www.opensciencenet.org/"><img src="../../img/openScience.jpg" alt="Open Science" align="right" style="PADDING-LEFT: 5px"></a>
+			
+			<p>So the resulting question is how to develop new methods, management structures and technologies to manage the diversity, size, and complexity of current and future datasets, ensuring they remain interoperable and accessible over the long term. With this in mind, it is imperative to develop an approach to preserving scientific data that continuously anticipates and adapts to changes in both the popular field-specific technologies, and user expectations.</p>
+
+			<p>There is a pressing need for involvement by digital preservationists to look after scientific data. While there have been strides made by organizations such as the National Science Foundation, Interagency Working Group on Digital Data, and NASA, no overarching methodology or policy has been accepted by scientific fields at large. And this needs to change.</p>
+
+			<p>The library, computer science, and scientific communities need to come together to make decisions for preservation of research and collections data. My specific NDSR project at AMNH is but a subset of the larger collaborative effort that needs to become a priority in all three fields. It is the first step of many in the right direction that will contribute to the preservation of these important scientific data. And until a solution is found, scientific data loss is a real threat, to all three communities and our future as a species evolving in our combined knowledge of the world.</p>
+
+			<p>I will leave you, dear readers, with a video from the Alliance for Permanent Access conference in 2011. Dr. Tony Hey speaks on data-intensive scientific discovery and digital preservation and exemplifies perfectly the challenges and importance of preserving digital scientific research data:</p>
+			
+			<div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/knDTankoTso" frameborder="0" allowfullscreen></iframe></div>
+        </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+        <!--blog sidebar -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset alert alert-dismissible alert-danger">
+            <h4>About</h4>
+            <p>A blog chronicling my career mostly, with some scattered pictures of my cat.</p>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-success">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  <li><a href="../2016/feb16.html">February 2016</a></li>
+			  <li><a href="../2016/jan15.html">January 2016</a></li>
+              <li><a href="../2015/dec16.html">December 2015</a></li>
+			  <li><a href="../2015/nov20.html">November 2015</a></li>
+			  <li><a href="../2015/oct10.html">October 2015</a></li>
+              <li><a href="../2015/sep21.html">September 2015</a></li>
+              <li><a href="../2015/aug14.html">August 2015</a></li>
+              <li><a href="../2015/jun2.html">June 2015</a></li>
+              <li><a href="../2015/may1.html">May 2015</a></li>
+              <li><a href="../2015/apr14.html">April 2015</a></li>
+              <li><a href="../2015/mar24.html">March 2015</a></li>
+              <li><a href="../2015/feb12.html">February 2015</a></li>
+              <li><a href="../2015/jan14.html">January 2015</a></li>
+              <li><a href="dec18.html">December 2014</a></li>
+              <li><a href="nov10.html">November 2014</a></li>
+              <li><a href="#">October 2014</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module alert alert-dismissible alert-info">
+            <h4>Elsewhere</h4>
+			<a class="twitter-timeline" href="https://twitter.com/VickySteeves" data-widget-id="615910359816384512">Tweets by @VickySteeves</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+		<!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p><a href="mailto:victoriaisteeves@gmail.com">Email Vicky</a> | <a href="#">Back to top</a></p>
+	  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://victoriaisteeves.com/blog" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
