@@ -846,7 +846,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '<div align="center"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://vickysteeves.com/blog.html" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></span></div>'
+CONTENT_FOOTER = '<div align="center"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data, Science, & Librarians,  Oh My!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://vickysteeves.com/blog.html" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></span></div><br/>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
