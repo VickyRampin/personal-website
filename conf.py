@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Vicky Steeves"  # (translatable)
 BLOG_TITLE = "VICKY STEEVES"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://vickysteeves.com"
+SITE_URL = "http://vickysteeves.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
@@ -880,7 +880,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = "vicky-steeves"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
