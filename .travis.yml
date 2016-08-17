@@ -8,5 +8,5 @@ after_success: |
   [ $TRAVIS_BRANCH = master ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
   pip install ghp-import &&
-  $HOME/.local/bin/ghp-import -n output
+  ghp-import -n output
   git push -qf https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages
