@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Vicky Steeves"  # (translatable)
 BLOG_TITLE = "VICKY STEEVES"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://vickysteeves.github.io/Nikola-Site/"
+SITE_URL = "http://vickysteeves.com"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
