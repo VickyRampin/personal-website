@@ -3,3 +3,6 @@
 ### [vickysteeves.com](http://vickysteeves.com)
 
 My website, recently upgraded from coding-by-hand (n00b) to [Nikola](https://getnikola.com/), a static site generator.
+
+### RSS Feed
+Found here: [http://vickysteeves.com/rss.xml](http://vickysteeves.com/rss.xml)
