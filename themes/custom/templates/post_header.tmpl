@@ -36,7 +36,7 @@
                 % if author_pages_generated:
                     <a href="${_link('author', post.author())}">${post.author()|h}</a>
                 % else:
-                    ${post.author()|h}
+                    <a href="../../resume">${post.author()|h}</a>
                 % endif
             </span></p>
             <p class="dateline"><a href="${post.permalink()}" rel="bookmark"><time class="published dt-published" datetime="${post.formatted_date('webiso')}" itemprop="datePublished" title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)|h}</time></a></p>
