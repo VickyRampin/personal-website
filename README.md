@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/VickySteeves/personal-website.svg?branch=master)](https://travis-ci.org/VickySteeves/personal-website)
+
 # Nikola-Site
 
 To install Nikola on other computers:
