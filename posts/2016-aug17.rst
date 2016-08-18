@@ -17,7 +17,7 @@ I actually made a lot of changes, starting with dumping my old website host, Blu
 
 So after I had made the change from Bluehost to Google Domains, I made the switch from Bluehost's servers to GitHub. I exported my site (which was still just hard-coded, even back then) and uploaded to a private GitHub repository. I wanted to make it look pretty before I made it public, as I was pretty embarrassed that I **still** hard-coded my site, especially given I have a C.S. degree... *shame*.
 
-So I also knew that I couldn't hard-code forever. It was such a hassle to update everything manually every time I wanted to write a post. Rémi pointed me towards static site generators, which I had never really heard of before. `This introduction to SSGs <https://davidwalsh.name/introduction-static-site-generators>`_ was really helpful to me as I decided to go with this option. Some of the most obvious advantages for are: 
+So I also knew that I couldn't hard-code forever. It was such a hassle to update everything manually every time I wanted to write a post. Rémi pointed me towards static site generators, which I had never really heard of before. `This introduction to SSGs <https://davidwalsh.name/introduction-static-site-generators>`_ was really helpful to me as I decided to go with this option. Some of the most obvious advantages are: 
 
 * Completely open-source development
     + The static site generators I considered are fully open source, which lets people not only develop great themes and plugins, but support each other in building/using/customizing the generator. 
@@ -126,7 +126,7 @@ After editing, the image was added to the right of the title. The code looks lik
 
 This works by querying the post's metadata (which you saw above in the HTML template snippet) for the "link," which goes back to the GitHub source. I added some inline CSS (the style="") which isn't the cleanest, but hey -- it works, and if you want to fix it, make a pull request ;) 
 
-After adding this feature and cleaning up the aesthetics, Rémi made the excellent point that I should use [Travis CI](travis-ci.org) to make sure my site updated every time a commit was made, either on GitHub natively (PR or in-browser editing). He actually ended up writing my build file because engineers and he's super smart and did it in 2 seconds when it would have taken me a day. 
+After adding this feature and cleaning up the aesthetics, Rémi made the excellent point that I should use `Travis CI <https://travis-ci.org/>`_ to make sure my site updated every time a commit was made, either through Git or on GitHub natively (PR or in-browser editing). He actually ended up writing my build file because engineers and he's super smart and did it in 2 seconds when it would have taken me a day. 
 
 This is my first post written and published using pure Nikola. I wrote it in reStructured Text format, which honestly seems like the biggest challenge in switching. After writing HTML for so long, it's an easy habit to get into. This is much nicer because it doesn't require tags for literally everything. 
 
