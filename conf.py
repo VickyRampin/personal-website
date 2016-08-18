@@ -799,7 +799,7 @@ INDEXES_STATIC = False
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
-     ("favicon", "images/favicon.ico", "16x16"),
+     ("favicon", "/favicon.ico", "16x16"),
      ("favicon1", "icon_128x128.png", "128x128"),
 )
 
