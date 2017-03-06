@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/VickySteeves/personal-website.svg?branch=master)](https://travis-ci.org/VickySteeves/personal-website)
+[![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com) [![Build Status](https://travis-ci.org/VickySteeves/personal-website.svg?branch=master)](https://travis-ci.org/VickySteeves/personal-website)
 
 ### [vickysteeves.com](http://vickysteeves.com)
 
