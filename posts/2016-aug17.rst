@@ -2,7 +2,7 @@
 .. slug: switching-to-nikola
 .. date: 2016-08-17 17:10:00 UTC-04:00
 .. tags: development, metapost
-.. category:
+.. category: Personal Life
 .. link: https://github.com/VickySteeves/personal-website/blob/master/posts/2016-aug17.rst
 .. description: 
 .. type: text
