@@ -3,10 +3,12 @@ python: "3.5"
 # command to install dependencies
 install: pip install 'Nikola[extras]'
 # command to run tests
-script: nikola build
-after_success: |
-  [ $TRAVIS_BRANCH = master ] &&
-  [ $TRAVIS_PULL_REQUEST = false ] &&
-  pip install ghp-import &&
-  ghp-import -n output
-  git push -qf https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages
+script: |
+  nikola build &&
+  if [ $TRAVIS_BRANCH = master ] && [ $TRAVIS_PULL_REQUEST = false ]; then
+    virtualenv -p python2.7 /tmp/venv &&
+    . /tmp/venv/bin/activate &&
+    pip install ghp-import &&
+    ghp-import -n output &&
+    git push -qf https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages >/dev/null 2>&1
+  fi
