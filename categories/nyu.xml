@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>VICKY STEEVES (Posts about nyu)</title><link>http://vickysteeves.com/</link><description></description><atom:link rel="self" href="http://vickysteeves.com/categories/nyu.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 20 Apr 2017 20:53:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Getting Use Cases is Hard</title><link>http://vickysteeves.com/blog/getting-use-cases/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: Getting Use Cases is Hard
+.. slug: getting-use-cases
+.. date: 2016-03-20 14:08:25 UTC-04:00
+.. tags:  nyu, ReproZip
+.. category: Professional Life
+.. link: https://github.com/VickySteeves/personal-website/blob/master/posts/2016-mar20.html
+.. description: 
+.. type: text
+--&gt;
+
+
+  
+   
+    
+		&lt;p&gt;One of my big tasks since coming into NYU last August was to work on the &lt;a href="https://github.com/ViDA-NYU/reprozip"&gt;ReproZip&lt;/a&gt; project. My role is largely outreach and education: I was tasked with teaching ReproZip and general reproducibility principles, gathering use cases in a wider variety of disciplines (when I arrived, the use cases were largely in computer science), and supporting users in general.&lt;/p&gt;
+				
+		&lt;p&gt;ReproZip kind of blew my mind when I arrived; it's an open source software tool that simplifies the process of creating reproducible experiments. Basically it tracks operating system calls and creates a package that contains all the binaries, files, and dependencies required to reproduce the experiment. A reviewer can then extract the experiment on their own machine using ANY operating system (even if it's different from the original one!!) to reproduce the results. As a librarian, I was like "OH MY GOD. THE DIGITAL PRESERVATION GAME JUST GOT UPPED." Anyway, here's basically how ReproZip works -- in 2 steps:&lt;/p&gt;
+	  
+		 &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/getting-use-cases/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><category>ReproZip</category><guid>http://vickysteeves.com/blog/getting-use-cases/</guid><pubDate>Sun, 20 Mar 2016 18:08:25 GMT</pubDate></item><item><title>#LYD16 Recap</title><link>http://vickysteeves.com/blog/love-your-data-week/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: #LYD16 Recap
+.. slug: love-your-data-week
+.. date: 2016-02-16 14:08:25 UTC-04:00
+.. tags:  nyu
+.. category: Professional Life
+.. link: https://github.com/VickySteeves/personal-website/blob/master/posts/2016-feb16.html
+.. description: 
+.. type: text
+--&gt;
+
+
+  
+    
+	&lt;p&gt;This past week, February 8-12th, was &lt;a href="https://loveyourdata.wordpress.com/"&gt;Love Your Data Week&lt;/a&gt;!! Is there a more perfect holiday for data librarians, especially right before Valentine's Day??&lt;/p&gt;
+			
+	&lt;p&gt;&lt;a href="https://twitter.com/search?q=%23LYD16&amp;amp;src=tyah"&gt;#LYD16&lt;/a&gt; was a social media event coordinated officially by 27 academic and research institutions, of which both &lt;a href="https://twitter.com/nyudataservices"&gt;NYU Data Services&lt;/a&gt; and &lt;a href="https://twitter.com/NYU_HSL"&gt;NYU Health Sciences Library&lt;/a&gt; were a part. The idea behind this social media blitz was to raise awareness of research data management and the support/resources for RDM at each individual institution. &lt;/p&gt;
+			
+	&lt;p&gt;Although just under 30 institutions officially were a part of the team, MANY MORE ended up joining the conversation on social media and jumping in, sharing their own thoughts and resources. We saw input from commercial organizations, researchers, faculty members, librarians, non-profits, and even academic journals! It was really great to see a conversation started around data stewardship and the importance of loving your data as much as it loves you!&lt;/p&gt;
+	&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/love-your-data-week/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><guid>http://vickysteeves.com/blog/love-your-data-week/</guid><pubDate>Tue, 16 Feb 2016 18:08:25 GMT</pubDate></item><item><title>Goals for 2016 and How I'll Make Them Happen</title><link>http://vickysteeves.com/blog/goals-for-2016/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;If you've been following this blog for a while, or even took a quick look on my 
+  &lt;a href="http://vickysteeves.com/resume.html"&gt;resume&lt;/a&gt; page, you'll see I haven't been at my position
+  at NYU for very long. January 3rd marks the fifth month (to the day!) that I've been
+  NYU's official "Research Data Management and Reproducibility Librarian." There was a
+  bit of an adjustment period where I just spent the majority of my time introducing
+  myself to my colleagues, getting to know what my daily workflow would look like, and
+  brainstorm with &lt;a href="http://nmwolf.net/"&gt;Nick&lt;/a&gt; about what our &lt;a href="http://guides.nyu.edu/data_management/services"&gt;services&lt;/a&gt; will look like, some good
+  groups for targeted outreach, and what &lt;a href="http://guides.nyu.edu/DS_classes"&gt;classes&lt;/a&gt; we are going to teach as a part of
+  &lt;a href="http://guides.nyu.edu/c.php?g=277095&amp;amp;p=1848849"&gt;Data Services typical
+  course offerings&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;This was all well and good, but since I started in August I missed the goal-setting
+  timeline that is typical for my colleagues. As such, I wanted to make some, and my
+  supervisor in the library thought it would be a good way to measure growth besides.
+  Plus, since I'm pretty early career, setting goals for a measurable outcome was kind of
+  new for something not project based. This was just trying to assess my own growth, not
+  necessarily the growth of a project I'm working on.&lt;/p&gt;&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/goals-for-2016/"&gt;Read more…&lt;/a&gt; (7 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><category>professional development</category><guid>http://vickysteeves.com/blog/goals-for-2016/</guid><pubDate>Fri, 15 Jan 2016 18:08:25 GMT</pubDate></item><item><title>Moore-Sloan Data Science Environment Summit: A Recap</title><link>http://vickysteeves.com/blog/msdse-summit/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;This year's Moore/Sloan Data Science Environment was in the beautiful Cascade Mountains at the Suncadia Resort in Cle Elum, Washington.&lt;/p&gt;
+    						
+		&lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;RT &lt;a href="https://twitter.com/uwescience"&gt;@uwescience&lt;/a&gt;: &lt;a href="https://twitter.com/hashtag/DSESummit?src=hash"&gt;#DSESummit&lt;/a&gt; is off to a sunny start! &lt;a href="http://t.co/fQi3EZpSdL"&gt;pic.twitter.com/fQi3EZpSdL&lt;/a&gt;&lt;/p&gt;— Vicky Steeves (@VickySteeves) &lt;a href="https://twitter.com/VickySteeves/status/651068136075198464"&gt;October 5, 2015&lt;/a&gt;&lt;/blockquote&gt;
+		&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+		&lt;p class="caption"&gt;Look how beautiful that is. Wow.&lt;/p&gt;
+    
+    &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/msdse-summit/"&gt;Read more…&lt;/a&gt; (6 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>conference report</category><category>nyu</category><guid>http://vickysteeves.com/blog/msdse-summit/</guid><pubDate>Sat, 10 Oct 2015 18:08:25 GMT</pubDate></item><item><title>Debrief: My First Two Months at NYU</title><link>http://vickysteeves.com/blog/first-two-months-nyu/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;So, for those who don't follow me on Twitter (go ahead though, &lt;a href="https://twitter.com/VickySteeves"&gt;@VickySteeves&lt;/a&gt;), I recently accepted a position at New York University, &lt;a href="http://library.nyu.edu/"&gt;Division of Libraries&lt;/a&gt; and &lt;a href="http://cds.nyu.edu"&gt;the NYU Center for Data Science&lt;/a&gt;, as the Librarian for Research Data Management and Reproducibility. I started August 3rd of this year, which turned out to be great because there were no students around. This may sound bad, but the prep time was invaluable. My partner-in-crime &lt;a href="http://www.nmwolf.net/"&gt;Nick Wolf&lt;/a&gt; came two weeks later, and together we really amped up the existing &lt;a href="http://guides.nyu.edu/data_management"&gt;data management LibGuide&lt;/a&gt;.&lt;/p&gt;
+			
+		&lt;p&gt;When September rolled around, I was hit with a visual on just how gigantic a school NYU really is. Seeing all the students streaming into the library, I was hit with the scope of my work here. Nick and I were supposed to build up services around research data management/data management planning for literally everyone on campus, from staff to students to faculty. Of course to start we will focus on a few core user communities and build our way out, but just wow--even starting on building services for grad students, for example, is an awesome task.&lt;/p&gt;
+	  
+	  &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/first-two-months-nyu/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><category>professional development</category><guid>http://vickysteeves.com/blog/first-two-months-nyu/</guid><pubDate>Mon, 21 Sep 2015 18:08:25 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>VICKY STEEVES (VS Blog)</title><link>http://vickysteeves.com/</link><description>A test to see if Nikola can work for my website</description><atom:link rel="self" href="http://vickysteeves.com/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 20 Apr 2017 20:53:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>NaNoWriMo!</title><link>http://vickysteeves.com/blog/nanowrimo-2016/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;Hi! So I've made the really scary decision to participate in &lt;a href="http://nanowrimo.org/"&gt;NaNoWriMo&lt;/a&gt; 2016, or "National Novel Writing Month." This means, by November 30, 2016, I will have written a full-length, 50,000 word novel.&lt;/p&gt;
+    
+    &lt;img src="http://vickysteeves.com/images/nanowrimo.png" alt="NaNoWriMo"&gt;
+	  
+	  &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/nanowrimo-2016/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>personal</category><guid>http://vickysteeves.com/blog/nanowrimo-2016/</guid><pubDate>Thu, 03 Nov 2016 18:08:25 GMT</pubDate></item><item><title>Visiting CERN</title><link>http://vickysteeves.com/blog/cern-visit/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;A few weeks ago, &lt;a href="http://vickysteeves.com/blog/solong-farewell/"&gt;my NDSR cohort&lt;/a&gt; &amp;amp; I had the great opportunity to present &lt;a href="https://github.com/VickySteeves/2016-NDSR-CompetencyProfile-Paper/blob/master/2016-10-03_iPRES_NDSRLongPaper.pdf"&gt;our paper&lt;/a&gt; at &lt;a href="http://www.ipres2016.ch/"&gt;iPres 2016&lt;/a&gt; in Bern, Switzerland! This was my first ever peer reviewed paper and it was accepted! Not a bad first time 😁. Our presentation went really well -- there was good audience engagement and it seemed like there was real potential for people to extend or use our study (with all our &lt;a href="https://osf.io/zndwq/"&gt;open access data&lt;/a&gt;!). One of my favourite moments was right after our presentation, when an audience member (whose name escapes me, I'm so sorry if you're reading this!) told us that we were part of very few people he'd seen accurately use grounded theory. I doubt this is true, but it was flattering nonetheless.&lt;/p&gt;
+	  
+	  &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/cern-visit/"&gt;Read more…&lt;/a&gt; (17 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>conference report</category><category>ndsr</category><category>personal</category><category>presentation</category><category>publication</category><guid>http://vickysteeves.com/blog/cern-visit/</guid><pubDate>Sat, 22 Oct 2016 18:08:25 GMT</pubDate></item><item><title>Switching to Nikola!</title><link>http://vickysteeves.com/blog/switching-to-nikola/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;This might be a shock to many of you (except my boyfriend and his roommate, who have been giving me sh*t about this forever), but before today I actually hard-coded my website. This meant that every time I updated a post, changed my resume, etc., I had to hard code the changes and the ripple effects.&lt;/p&gt;
+&lt;p&gt;What was I thinking. Honestly. You can look at how painful it was &lt;a class="reference external" href="https://github.com/VickySteeves/personal-website/tree/OLD/static"&gt;here&lt;/a&gt; on GitHub. I kept it as a reminder and in case I severely messed up this whole Nikola thing, which I'm going to explain in the bulk of this post.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/switching-to-nikola/"&gt;Read more…&lt;/a&gt; (7 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>development</category><category>metapost</category><guid>http://vickysteeves.com/blog/switching-to-nikola/</guid><pubDate>Wed, 17 Aug 2016 21:10:00 GMT</pubDate></item><item><title>SHARE Week</title><link>http://vickysteeves.com/blog/share-week/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;This week I made my first trek down to Virginia to engage with the Center for Open Science IRL! After just about a year of emails, hangouts, and calls, I was excited to see the space in which I think some really innovative tech is being developed for the open X community. The second week of July was designated as SHARE week: Monday and Tuesday was the SHARE hackathon, Wednesday and half of Thursday was the SHARE community meeting, and the last half of Thursday and Friday was the SHARE Curation Associates kick off orientation. &lt;/p&gt;
+	  
+	  &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/share-week/"&gt;Read more…&lt;/a&gt; (9 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>conference report</category><category>professional development</category><guid>http://vickysteeves.com/blog/share-week/</guid><pubDate>Sat, 30 Jul 2016 18:08:25 GMT</pubDate></item><item><title>France</title><link>http://vickysteeves.com/blog/france-trip/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;I just got back from the most BEAUTIFUL two week vacation in France with my S.O., Rémi! It was my first time in France, and my second time in Western Europe -- backstory: I did an extensive trip of Eastern Europe in 2014, but only have been to Ireland in the West (I lived there).&lt;/p&gt;
+			
+			&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/france-trip/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>personal</category><guid>http://vickysteeves.com/blog/france-trip/</guid><pubDate>Mon, 27 Jun 2016 18:08:25 GMT</pubDate></item><item><title>So. Many. Conferences.</title><link>http://vickysteeves.com/blog/so-many-conferences/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;My first two weeks of May have been just explicitly devoted to conferences. Planning, executing, attending, surveying -- you name it, I've been doing it in relation to some event or another. It's actually been great, but &lt;em&gt;so exhausting&lt;/em&gt;. I am definitely giving a lot of props to event planners for doing this as their day-to-day.&lt;/p&gt;
+
+      &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/so-many-conferences/"&gt;Read more…&lt;/a&gt; (7 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>conference report</category><category>professional development</category><guid>http://vickysteeves.com/blog/so-many-conferences/</guid><pubDate>Sun, 15 May 2016 18:08:25 GMT</pubDate></item><item><title>FORCE2016</title><link>http://vickysteeves.com/blog/force-2016/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;W.O.W.&lt;/p&gt;
+			
+			&lt;p&gt;So, I kind of am in love with the &lt;a href="https://www.force11.org/meetings/force2016"&gt;FORCE conference&lt;/a&gt; I just went to. FORCE2016 is the annual conference from an organization called FORCE11 (ha, the year they started the org.). This year, 500 people came from around the world: researchers, librarians, software developers, large scale repositories, open science advocates, and everyone in between. It was not only a very diverse conference in terms of home country and job, but also in the way the conference and program was run.&lt;/p&gt;
+			
+			&lt;p&gt;First, one of the coolest things I have ever seen: in addition to the MULTITUDE of tweets around the event (seriously everyone was so active, it was amazing), they hired a company to take visual notes!! While everything was going on!! Everyone, the gist of their talks, panels, lightning talks, EVERYTHING! Such a great idea and it produced a great visual overview of the con!&lt;/p&gt;&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/force-2016/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>conference report</category><category>professional development</category><guid>http://vickysteeves.com/blog/force-2016/</guid><pubDate>Wed, 20 Apr 2016 18:08:25 GMT</pubDate></item><item><title>Getting Use Cases is Hard</title><link>http://vickysteeves.com/blog/getting-use-cases/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: Getting Use Cases is Hard
+.. slug: getting-use-cases
+.. date: 2016-03-20 14:08:25 UTC-04:00
+.. tags:  nyu, ReproZip
+.. category: Professional Life
+.. link: https://github.com/VickySteeves/personal-website/blob/master/posts/2016-mar20.html
+.. description: 
+.. type: text
+--&gt;
+
+
+  
+   
+    
+		&lt;p&gt;One of my big tasks since coming into NYU last August was to work on the &lt;a href="https://github.com/ViDA-NYU/reprozip"&gt;ReproZip&lt;/a&gt; project. My role is largely outreach and education: I was tasked with teaching ReproZip and general reproducibility principles, gathering use cases in a wider variety of disciplines (when I arrived, the use cases were largely in computer science), and supporting users in general.&lt;/p&gt;
+				
+		&lt;p&gt;ReproZip kind of blew my mind when I arrived; it's an open source software tool that simplifies the process of creating reproducible experiments. Basically it tracks operating system calls and creates a package that contains all the binaries, files, and dependencies required to reproduce the experiment. A reviewer can then extract the experiment on their own machine using ANY operating system (even if it's different from the original one!!) to reproduce the results. As a librarian, I was like "OH MY GOD. THE DIGITAL PRESERVATION GAME JUST GOT UPPED." Anyway, here's basically how ReproZip works -- in 2 steps:&lt;/p&gt;
+	  
+		 &lt;p&gt;&lt;a href="http://vickysteeves.com/blog/getting-use-cases/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><category>ReproZip</category><guid>http://vickysteeves.com/blog/getting-use-cases/</guid><pubDate>Sun, 20 Mar 2016 18:08:25 GMT</pubDate></item><item><title>#LYD16 Recap</title><link>http://vickysteeves.com/blog/love-your-data-week/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;!--
+.. title: #LYD16 Recap
+.. slug: love-your-data-week
+.. date: 2016-02-16 14:08:25 UTC-04:00
+.. tags:  nyu
+.. category: Professional Life
+.. link: https://github.com/VickySteeves/personal-website/blob/master/posts/2016-feb16.html
+.. description: 
+.. type: text
+--&gt;
+
+
+  
+    
+	&lt;p&gt;This past week, February 8-12th, was &lt;a href="https://loveyourdata.wordpress.com/"&gt;Love Your Data Week&lt;/a&gt;!! Is there a more perfect holiday for data librarians, especially right before Valentine's Day??&lt;/p&gt;
+			
+	&lt;p&gt;&lt;a href="https://twitter.com/search?q=%23LYD16&amp;amp;src=tyah"&gt;#LYD16&lt;/a&gt; was a social media event coordinated officially by 27 academic and research institutions, of which both &lt;a href="https://twitter.com/nyudataservices"&gt;NYU Data Services&lt;/a&gt; and &lt;a href="https://twitter.com/NYU_HSL"&gt;NYU Health Sciences Library&lt;/a&gt; were a part. The idea behind this social media blitz was to raise awareness of research data management and the support/resources for RDM at each individual institution. &lt;/p&gt;
+			
+	&lt;p&gt;Although just under 30 institutions officially were a part of the team, MANY MORE ended up joining the conversation on social media and jumping in, sharing their own thoughts and resources. We saw input from commercial organizations, researchers, faculty members, librarians, non-profits, and even academic journals! It was really great to see a conversation started around data stewardship and the importance of loving your data as much as it loves you!&lt;/p&gt;
+	&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/love-your-data-week/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><guid>http://vickysteeves.com/blog/love-your-data-week/</guid><pubDate>Tue, 16 Feb 2016 18:08:25 GMT</pubDate></item><item><title>Goals for 2016 and How I'll Make Them Happen</title><link>http://vickysteeves.com/blog/goals-for-2016/</link><dc:creator>Vicky Steeves</dc:creator><description>&lt;div&gt;&lt;p&gt;If you've been following this blog for a while, or even took a quick look on my 
+  &lt;a href="http://vickysteeves.com/resume.html"&gt;resume&lt;/a&gt; page, you'll see I haven't been at my position
+  at NYU for very long. January 3rd marks the fifth month (to the day!) that I've been
+  NYU's official "Research Data Management and Reproducibility Librarian." There was a
+  bit of an adjustment period where I just spent the majority of my time introducing
+  myself to my colleagues, getting to know what my daily workflow would look like, and
+  brainstorm with &lt;a href="http://nmwolf.net/"&gt;Nick&lt;/a&gt; about what our &lt;a href="http://guides.nyu.edu/data_management/services"&gt;services&lt;/a&gt; will look like, some good
+  groups for targeted outreach, and what &lt;a href="http://guides.nyu.edu/DS_classes"&gt;classes&lt;/a&gt; we are going to teach as a part of
+  &lt;a href="http://guides.nyu.edu/c.php?g=277095&amp;amp;p=1848849"&gt;Data Services typical
+  course offerings&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;This was all well and good, but since I started in August I missed the goal-setting
+  timeline that is typical for my colleagues. As such, I wanted to make some, and my
+  supervisor in the library thought it would be a good way to measure growth besides.
+  Plus, since I'm pretty early career, setting goals for a measurable outcome was kind of
+  new for something not project based. This was just trying to assess my own growth, not
+  necessarily the growth of a project I'm working on.&lt;/p&gt;&lt;p&gt;&lt;a href="http://vickysteeves.com/blog/goals-for-2016/"&gt;Read more…&lt;/a&gt; (7 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>nyu</category><category>professional development</category><guid>http://vickysteeves.com/blog/goals-for-2016/</guid><pubDate>Fri, 15 Jan 2016 18:08:25 GMT</pubDate></item></channel></rss>
