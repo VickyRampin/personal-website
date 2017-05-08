@@ -4,4 +4,4 @@ _site/
 .doit.db
 state_data.json
 cache/
-output/
+public/

@@ -3,7 +3,7 @@
 .. date: 2016-08-17 17:10:00 UTC-04:00
 .. tags: development, metapost
 .. category: Personal Life
-.. link: https://github.com/VickySteeves/personal-website/blob/master/posts/2016-aug17.rst
+.. link: https://gitlab.com/VickySteeves/personal-website/blob/master/posts/2016-aug17.rst
 .. description: 
 .. type: text
 
@@ -91,7 +91,7 @@ This worked out *excellently* for me because all my previous posts were written 
     .. date: 20XX-XX-XX
     .. tags: 
     .. category: 
-    .. link: https://github.com/VickySteeves/personal-website/blob/master/posts/{POST FILE NAME}
+    .. link: https://gitlab.com/VickySteeves/personal-website/blob/master/posts/{POST FILE NAME}
     .. description: 
     .. type: text
     -->
