@@ -9,24 +9,24 @@
 
 This might be a shock to many of you (except my boyfriend and his roommate, who have been giving me sh*t about this forever), but before today I actually hard-coded my website. This meant that every time I updated a post, changed my resume, etc., I had to hard code the changes and the ripple effects. 
 
-What was I thinking. Honestly. You can look at how painful it was `here <https://github.com/VickySteeves/personal-website/tree/OLD/static>`_ on GitHub. I kept it as a reminder and in case I severely messed up this whole Nikola thing, which I'm going to explain in the bulk of this post. 
+What was I thinking. Honestly. You can look at how painful it was `here <https://gitlab.com/VickySteeves/personal-website/tree/OLD/static>`_ on GitLab. I kept it as a reminder and in case I severely messed up this whole Nikola thing, which I'm going to explain in the bulk of this post. 
 
 .. TEASER_END
 
 I actually made a lot of changes, starting with dumping my old website host, Bluehost. I had decided to register my domain names on Google Domains, which was not only half the cost of Bluehost -- \$50/year on Bluehost for 2 domains, and \$24/year on Google Domains for the same -- but it provided an easier interface to fix settings, play with email stuff (you can get at me via `vicky[AT]vickysteeves[DOT]com <mailto:vicky@vickysteeves.com>`_! so cool!!), and have domains connected to a Google account, which is just convenient. It's all around really great. If Google retires this, I will honestly throw a fit. 
 
-So after I had made the change from Bluehost to Google Domains, I made the switch from Bluehost's servers to GitHub. I exported my site (which was still just hard-coded, even back then) and uploaded to a private GitHub repository. I wanted to make it look pretty before I made it public, as I was pretty embarrassed that I **still** hard-coded my site, especially given I have a C.S. degree... *shame*.
+So after I had made the change from Bluehost to Google Domains, I made the switch from Bluehost's servers to GitLab. I exported my site (which was still just hard-coded, even back then) and uploaded to a private GitLab repository. I wanted to make it look pretty before I made it public, as I was pretty embarrassed that I **still** hard-coded my site, especially given I have a C.S. degree... *shame*.
 
 So I also knew that I couldn't hard-code forever. It was such a hassle to update everything manually every time I wanted to write a post. Rémi pointed me towards static site generators, which I had never really heard of before. `This introduction to SSGs <https://davidwalsh.name/introduction-static-site-generators>`_ was really helpful to me as I decided to go with this option. Some of the most obvious advantages are: 
 
 * Completely open-source development
     + The static site generators I considered are fully open source, which lets people not only develop great themes and plugins, but support each other in building/using/customizing the generator. 
     + Anyone can file an issue on my site or blog posts (or help me do development -- shoutout to `Rémi <http://bf.vickysteeves.com>`_ for that already) when something is wrong or to add a correction with a pull request. 
-* Easy version control and integration with GitHub, which I had already chosen to host my website. 
+* Easy version control and integration with GitLab, which I had already chosen to host my website. 
 * Speed: static generators are usually much faster than a full-blown content mangement system (CMS) like WordPress or the like, because it doesn't rely on a database and server configuration. 
 * Ease of Use: I don't have to deal with a server, which I don't really need. I just need to serve up my HTML pages! And if need be, I can migrate the site to something else -- as a data management librarian, I always have to have an exit strategy ;) 
 
-I eventually opened up an `issue <https://github.com/VickySteeves/personal-website/issues/3>`_ in my GitHub repo that put pressure on me to make this change happen. `Static Gen <https://www.staticgen.com/>`_ was an invaluable resource to me as I narrowed my choices down to eventually include Nikola. Nikola is actually #26 on this list, which ranks SSGs by the number of stars it has on GitHub, but it was a really obvious choice for me. I had a few requirements for a site generator: 
+I eventually opened up an `issue <https://gitlab.com/VickySteeves/personal-website/issues/3>`_ in my GitLab repo that put pressure on me to make this change happen. `Static Gen <https://www.staticgen.com/>`_ was an invaluable resource to me as I narrowed my choices down to eventually include Nikola. Nikola is actually #26 on this list, which ranks SSGs by the number of stars it has on GitLab, but it was a really obvious choice for me. I had a few requirements for a site generator: 
 
 * Support `Bootstrap <http://getbootstrap.com/>`_ themes/JS, which I love and already had been using.
 * Simple blogging framework 
@@ -102,11 +102,11 @@ This worked out *excellently* for me because all my previous posts were written 
       </body>
     </html>`
 
-After the posts were all successfully modified to the Nikola schema, it was a simple matter of cleaning up the aesthetics. This was done by copy-pasting the templates from Nikola into my site's directory, and then editing them -- the same as creating a child-theme in WordPress. By doing this, I could modify the way my site rendered dynamically. My favourite modification I made (and again, thanks to Rémi for the suggestion) was adding the GitHub source link on each of my blog posts. Each of my posts has this cute little GitHub image 
+After the posts were all successfully modified to the Nikola schema, it was a simple matter of cleaning up the aesthetics. This was done by copy-pasting the templates from Nikola into my site's directory, and then editing them -- the same as creating a child-theme in WordPress. By doing this, I could modify the way my site rendered dynamically. My favourite modification I made (and again, thanks to Rémi for the suggestion) was adding the GitLab source link on each of my blog posts. Each of my posts has this cute little GitLab image 
 
-.. image:: ../../images/github.png 
+.. image:: ../../images/gitlab.png 
 
-at the far-right to the title, that, if clicked, brings the user to the source hosted on GitHub. 
+at the far-right to the title, that, if clicked, brings the user to the source hosted on GitLab. 
 
 This allows my readers to go directly to the source of my post to make corrections, pull requests, etc. I did this by editing the post_header.tmpl file. I copied it into a folder in my site's directory called "templates" which has a long file path: personal-website/themes/custom/templates. Before editing, it just asked the post for it's metadata after displaying the title:::
 
@@ -119,14 +119,14 @@ After editing, the image was added to the right of the title. The code looks lik
 
     <%def name="html_post_header()">
     <header>
-    {* GITHUB IMAGE WITH SOURCE LINK *}
-	<a href="${post.meta('link')}" id="sourcelink"><img src="../../images/github.png" height="5%" width="5%" style="float:right;"></a>
+    {* GITLAB IMAGE WITH SOURCE LINK *}
+	<a href="${post.meta('link')}" id="sourcelink"><img src="../../images/gitlab.png" height="5%" width="5%" style="float:right;"></a>
         ${html_title()}
         <div class="metadata">
 
-This works by querying the post's metadata (which you saw above in the HTML template snippet) for the "link," which goes back to the GitHub source. I added some inline CSS (the style="") which isn't the cleanest, but hey -- it works, and if you want to fix it, make a pull request ;) 
+This works by querying the post's metadata (which you saw above in the HTML template snippet) for the "link," which goes back to the GitLab source. I added some inline CSS (the style="") which isn't the cleanest, but hey -- it works, and if you want to fix it, make a pull request ;) 
 
-After adding this feature and cleaning up the aesthetics, Rémi made the excellent point that I should use `Travis CI <https://travis-ci.org/>`_ to make sure my site updated every time a commit was made, either through Git or on GitHub natively (PR or in-browser editing). He actually ended up writing my build file because engineers and he's super smart and did it in 2 seconds when it would have taken me a day. 
+After adding this feature and cleaning up the aesthetics, Rémi made the excellent point that I should use `Travis CI <https://travis-ci.org/>`_ to make sure my site updated every time a commit was made, either through Git or on GitLab natively (PR or in-browser editing). He actually ended up writing my build file because engineers and he's super smart and did it in 2 seconds when it would have taken me a day. 
 
 This is my first post written and published using pure Nikola. I wrote it in reStructured Text format, which honestly seems like the biggest challenge in switching. After writing HTML for so long, it's an easy habit to get into. This is much nicer because it doesn't require tags for literally everything. 
 
