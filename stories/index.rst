@@ -12,7 +12,7 @@
 
 .. raw:: html
 
-    <p class="lead">  Hi! I'm Vicky Steeves. I am a librarian specializing in data management and reproducibility. Here you'll find out more about me, my work, and probably see more pictures of my cat than you ever wanted to. But he's super cute so....you decide if that's a bad thing.</p>
+    <p class="lead">  Hi!! I'm Vicky Steeves. I am a librarian specializing in data management and reproducibility. Here you'll find out more about me, my work, and probably see more pictures of my cat than you ever wanted to. But he's super cute so....you decide if that's a bad thing.</p>
     
     <p>I am the Librarian for Research Data Management and Reproducibility Librarian at NYU, a dual appointment between the Center for Data Science and Division of Libraries. I provide instructional and consultation services to the NYU Community in research data management, as well as pilot curation practices while monitoring researcher needs across disciplines. I'm involved in the Moore-Sloan Data Science Environment Partnership at NYU, working on the reproducibility of research. I am an alum of the National Digital Stewardship Residency New York (2014-15 cohort), at the American Museum of Natural History. My project was to gain a broad overview of the extent and status of AMNH digital assets pertaining to Science. To do so I developed a structured interview guide designed to measure and describe scientific digital assets resulting in a metric to predict ongoing data curation needs.
     
