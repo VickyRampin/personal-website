@@ -1,0 +1,40 @@
+<!--
+.. title: 5 Things I learned at SciPy 2017
+.. slug: scipy-report
+.. date: 2017-07-14 14:08:25 UTC-04:00
+.. tags: conference report
+.. category: Professional Life
+.. link: https://gitlab.com/VickySteeves/personal-website/blob/master/posts/2017-jul14.html
+.. description: 
+.. type: text
+-->
+
+<!DOCTYPE html>
+<html>
+  <body>
+				
+    
+
+	<p><a href="https://data-services.hosting.nyu.edu/five-things-we-learned-at-scipy-2017/">See original posting here.</a></p>
+
+	<p>I just got back from <a href="https://scipy2017.scipy.org">SciPy2017</a> (I had a talk on ReproZip accepted - <a href="https://vickysteeves.gitlab.io/2017-SciPy/#/">slides</a>)and I learned about some amazing open source tools for research! This year, SciPy 2017 was in Austin, Texas from July 10-16, 2017. It was the 16th annual Scientific Computing with Python Conference, and focused on great new tools and methods for research with Python.</p>
+
+	<p>These are my top 5 favourite takeaways from SciPy 2017!</p>
+
+<!-- TEASER_END -->
+
+	<ol>
+		<li><strong><a href="https://github.com/ScienceStacks/SciSheets">SciSheets</a>:</strong> Anyone who knows me knows that I really can't stand Excel. It encodes your data weirdly, and is such a black box it causes more errors in research than it ever helps analysis. This is why I was pumped to see a session on building a better spreadsheet - one that combines programming with the simplicity of spreadsheets. SciSheets is a web application that allows users to run Python expressions or scripts in a spreadhseet, but also export spreadsheets to a standalone Python program! You can find a demo video <a href="https://www.youtube.com/watch?v=N9QQK5n72ZM">here</a>!</li>
+	 	<li><strong><a href="https://github.com/jupyter/nbgrader">nbgrader</a>:</strong> This is a phenomenal application for assignment management and grading in Jupyter notebooks. The nbgrader extension for Jupyter notebooks guides the instructor through assignment and grading tasks using the familiar Jupyter notebook interface. It's made up of a few Jupyter Notebook extensions. The formgrader extension allows instructors to use functionality from nbgrader to generate student versions of assignments (including releasing to students), collecting assignments, and auto and manual grading submissions. Students just work in the notebook and submit! You can read more at the <a href="https://github.com/jupyter/nbgrader">GitHub repo</a>.</li>
+
+	<div align="center"><img src="/images/nbgrader.jpg" height="50%" width="50%"></img></div>
+	<p class="caption">The nbgrader workflows from the SciPy presentation.</p>
+
+	 	<li><strong><a href="https://github.com/dataflownb/dfkernel">Dataflow</a></strong>: This extension to Jupyter Notebooks answers the question, "how can a notebook be structured so rewriting isn't necessary?" and "how can cells in a notebook be linked more robustly?" Their solution was to make <strong>cell IDs persistent</strong>, similarly to UUIDs<strong>.</strong> This allows users to powerfully reference previous outputs. You see the slides from SciPy <a href="http://www.cis.umassd.edu/~dkoop/presentations/dataflownb-scipy-2017.pdf">here</a>.</li>
+	 	<li><a href="http://joss.theoj.org/"><strong>The Journal of Open Source Software</strong></a>: Ok, I didn't <strong>just</strong> learn about JOSS (I have <a href="http://joss.theoj.org/papers/b578b171263c73f64dfb9d040ca80fe0">a paper</a> there!) but it's still one of my favourite things. It's an open source journal for software. Developers just have to write a short essay (2 paragraph markdown file with some references and an image) and have their code available for review on GitHub. The reviews look at the source code, and test it out before acceptance. From their website: "The Journal of Open Source Software (JOSS) is an academic journal with a formal peer review process that is designed to <em>improve the quality of the software submitted</em>." It's a great way for developers in academia to get their work reviewed, and get credit for their excellent software.</li>
+
+		<li><strong><a href="https://github.com/elegant-scipy/elegant-scipy">Elegant SciPy</a></strong> book: Written by Juan Nunez-Iglesias (@jni), Harriet Dashnow (@hdashnow), and Stéfan van der Walt (@stefanv), and published by O'Reilly Media, this fully free and open book focuses on the foundations of scientific python. You can download the book from the GitHub repository as Markdown or an executable Jupyter Notebook. Great work done on opening the book in a machine readable and executable format!!</li>
+	</ol>
+
+  </body>
+</html>
