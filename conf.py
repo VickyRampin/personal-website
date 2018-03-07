@@ -144,7 +144,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "custom"
+THEME = "bootstrap4"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -973,7 +973,7 @@ DEPLOY_DRAFTS = False
 # it's faster and the output looks better.
 # If you set USE_KATEX to True, you also need to add an extra CSS file
 # like this:
-# EXTRA_HEAD_DATA = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">"""
+EXTRA_HEAD_DATA = """<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">"""
 # USE_KATEX = False
 
 # Do you want to customize the nbconversion of your IPython notebook?
