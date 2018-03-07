@@ -21,7 +21,7 @@
 % for post in posts:
     <article class="h-entry post-${post.meta('type')}">
     <header>
-        <h1 class="p-name entry-title"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h1>
+        <h2 class="p-name entry-title"><a href="${post.permalink()}" class="u-url post-title">${post.title()|h}</a></h2>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
             % if author_pages_generated:
@@ -31,9 +31,6 @@
             % endif
             </span></p>
             <p class="dateline"><a href="${post.permalink()}" rel="bookmark"><time class="published dt-published" datetime="${post.formatted_date('webiso')}" title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)|h}</time></a></p>
-            % if not post.meta('nocomments') and site_has_comments:
-                <p class="commentline">${comments.comment_link(post.permalink(), post._base_path)}
-            % endif
         </div>
     </header>
     %if index_teasers:
@@ -49,5 +46,4 @@
 </div>
 ${helper.html_pager()}
 ${comments.comment_link_script()}
-${helper.mathjax_script(posts)}
 </%block>

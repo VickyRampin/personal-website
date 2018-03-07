@@ -9,3 +9,32 @@
 .navbar-brand{
   font-size: 1.07em;
 }
+
+p {
+   color: #575c60;
+}
+
+li {
+   color: #575c60;
+}
+
+.text-muted {
+   color: #828a90;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+   border-color: #575c60 #575c60 #fff;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #575c60;
+}
+
+
+.post-title{
+   color: #6695c4;
+}
+
+.btn .btn-lg .btn-success .btn-primary{
+   font-size:1em;
+}
