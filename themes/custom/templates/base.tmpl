@@ -12,7 +12,6 @@ ${template_hooks['extra_head']()}
 <a href="#content" class="sr-only sr-only-focusable">${messages("Skip to main content")}</a>
 
 <!-- Menubar -->
-
 <nav class="navbar navbar-expand-md navbar-dark bg-dark static-top mb-4">
     <div class="container"><!-- This keeps the margins nice -->
         <a class="navbar-brand" href="${abs_link(_link("root", None, lang))}">
@@ -29,25 +28,25 @@ ${template_hooks['extra_head']()}
         </button>
 
         <div class="collapse navbar-collapse" id="bs-navbar">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto"> 
                 ${base.html_navigation_links()}
                 ${template_hooks['menu']()}
 		<li class="nav-item"><a class="nav-link" href="https://impactstory.org/u/0000-0003-4298-168X">ImpactStory <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 		<li class="nav-item dropdown">
-		  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data & Code <i class="fa fa-external-link" aria-hidden="true"></i></a>
+		  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data & Code</a>
             	   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://osf.io/7mj2q/">Open Science Framework</a>
-                    <a class="dropdown-item" href="https://gitlab.com/VickySteeves">GitLab</a>
-		    <a class="dropdown-item" href="https://github.com/VickySteeves">GitHub</a>
+                    <a class="dropdown-item" href="https://osf.io/7mj2q/">Open Science Framework <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    <a class="dropdown-item" href="https://gitlab.com/VickySteeves">GitLab <i class="fa fa-external-link" aria-hidden="true"></i></a>
+		    <a class="dropdown-item" href="https://github.com/VickySteeves">GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>
                    </div>
 		</li>	
 		<li class="nav-item dropdown">
-		  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social <i class="fa fa-external-link" aria-hidden="true"></i></a>
+		  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social</a>
             	   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://bookwitty.social/@VickySteeves">Mastodon: Bookwitty.Social</a>
-                    <a class="dropdown-item" href="https://twitter.com/VickySteeves" >Twitter</a>
-		    <a class="dropdown-item" href="https://www.instagram.com/vickysteeves/" >Instagram</a></li>
-		    <a class="dropdown-item" href="https://www.linkedin.com/in/victoriaisteeves" >LinkedIn</a></li>
+                    <a class="dropdown-item" href="https://bookwitty.social/@VickySteeves">Mastodon: Bookwitty.Social <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    <a class="dropdown-item" href="https://twitter.com/VickySteeves" >Twitter <i class="fa fa-external-link" aria-hidden="true"></i></a>
+		    <a class="dropdown-item" href="https://www.instagram.com/vickysteeves/" >Instagram <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+		    <a class="dropdown-item" href="https://www.linkedin.com/in/victoriaisteeves" >LinkedIn <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
                    </div>
 		</li>
             %if search_form:

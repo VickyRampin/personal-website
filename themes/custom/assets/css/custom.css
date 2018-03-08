@@ -38,3 +38,27 @@ li {
 .btn .btn-lg .btn-success .btn-primary{
    font-size:1em;
 }
+
+.badge {
+  color: #fff;
+  text-decoration: none;
+  background-color: #6695c4;
+  font-size:1em;
+}
+
+.list-inline {
+  line-height: 2em;
+}
+
+.face {
+  float: left;
+  padding-right: 1em;
+}
+
+.btn-outline-primary{
+  border-color: #6695c4;
+}
+
+.job {
+  padding-top:10px;
+}
