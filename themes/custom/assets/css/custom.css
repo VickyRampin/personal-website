@@ -1,3 +1,29 @@
+/**************** BODY ********************/
+p {
+   color: #575c60;
+   font-size:1.07em;
+}
+
+li {
+   color: #575c60;
+   font-size:1.07em;
+}
+
+.text-muted {
+   color: #828a90;
+}
+
+.post-title{
+   color: #6695c4;
+}
+
+.face {
+  float: left;
+  padding-right: 1em;
+}
+
+/**************** NAV ********************/
+
 .bg-dark{
     background-color: #6695c4 !important;
 }
@@ -10,18 +36,6 @@
   font-size: 1.07em;
 }
 
-p {
-   color: #575c60;
-}
-
-li {
-   color: #575c60;
-}
-
-.text-muted {
-   color: #828a90;
-}
-
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
    border-color: #575c60 #575c60 #fff;
 }
@@ -30,13 +44,14 @@ li {
     border-bottom: 1px solid #575c60;
 }
 
-
-.post-title{
-   color: #6695c4;
-}
-
+/**************** BUTTONS ********************/
 .btn .btn-lg .btn-success .btn-primary{
    font-size:1em;
+}
+
+/**************** TAGS ********************/
+.list-inline {
+  line-height: 2em;
 }
 
 .badge {
@@ -46,19 +61,11 @@ li {
   font-size:1em;
 }
 
-.list-inline {
-  line-height: 2em;
-}
-
-.face {
-  float: left;
-  padding-right: 1em;
+/**************** RESUME TAB ********************/
+.job {
+  padding-top:10px;
 }
 
 .btn-outline-primary{
   border-color: #6695c4;
-}
-
-.job {
-  padding-top:10px;
 }
