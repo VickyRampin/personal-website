@@ -1,16 +1,19 @@
 /**************** BODY ********************/
+body {
+  font-size:1.1em;
+}
+
 p {
    color: #575c60;
-   font-size:1.07em;
 }
 
 li {
    color: #575c60;
-   font-size:1.07em;
 }
 
 .text-muted {
    color: #828a90;
+   font-size: 0.9em;
 }
 
 .post-title{
@@ -22,18 +25,30 @@ li {
   padding-right: 1em;
 }
 
+.lead {
+ font-size:1.2em;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #fff;
+} 
+
 /**************** NAV ********************/
 
 .bg-dark{
     background-color: #6695c4 !important;
 }
 
-.navbar{
-  font-size: 1.07em;
+.navbar-nav .nav-link {
+  font-size: 1.2em;
 }
 
-.navbar-brand{
-  font-size: 1.07em;
+.navbar-brand  {
+  font-size: 1.7em;
+}
+
+.dropdown-item {
+  font-size: 1.2em;
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
