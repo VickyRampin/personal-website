@@ -975,7 +975,7 @@ CONTENT_FOOTER_FORMATS = {
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a> CC-BY-NC-SA'
+RSS_COPYRIGHT = 'Contents CC-BY-NC-SA {date} <a href="mailto:{email}">{author}</a> CC-BY-NC-SA'
 RSS_COPYRIGHT_PLAIN = 'Contents CC-BY-NC-SA {date} {author}'
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
