@@ -138,13 +138,13 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 	("/", "Home"),
 	("/resume", "Resume"), 
-	(
-           (
-                ("/blog", "Posts"),
-	        ("/archive.html", "Archives"),
-         ),
-         'Blog' 
-     ),
+#	(
+#           (
+#                ("/blog", "Posts"),
+#	        ("/archive.html", "Archives"),
+#         ),
+#         'Blog' 
+#     ),
      ("https://profiles.impactstory.org/u/0000-0003-4298-168X", "ImpactStory <i class='fas fa-external-link-alt'></i>"),
      (
          (
@@ -157,9 +157,8 @@ NAVIGATION_LINKS = {
      (
          (
             ("https://octodon.social/@vickysteeves", "Mastodon <i class='fas fa-external-link-alt'></i>"),
+	        ("https://pixelfed.social/VickyZelda", "PixelFed <i class='fas fa-external-link-alt'></i>"),
 	        ("https://twitter.com/VickySteeves", "Twitter <i class='fas fa-external-link-alt'></i>"),
-            ("https://pixelfed.social/VickyZelda", "PixelFed <i class='fas fa-external-link-alt'></i>"),
-            ("https://www.instagram.com/vickysteeves/", "Instagram <i class='fas fa-external-link-alt'></i>"),
             ("https://www.linkedin.com/in/victoriaisteeves/", "LinkedIn <i class='fas fa-external-link-alt'></i>"),
          ),
          'Social' 
