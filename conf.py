@@ -16,15 +16,15 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Vicky Steeves"  # (translatable)
-BLOG_TITLE = "VICKY STEEVES"  # (translatable)
+BLOG_AUTHOR = "Vicky Rampin (née Steeves)"  # (translatable)
+BLOG_TITLE = "VICKY RAMPIN"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://vickysteeves.com/"
+SITE_URL = "https://vicky.rampin.org"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://vickysteeves.com/"
-BLOG_EMAIL = "victoriaisteeves@gmail.com"
+BLOG_EMAIL = "vicky@rampin.org"
 BLOG_DESCRIPTION = "My sort-of professional and sort-of personal website."  # (translatable)
 
 # Nikola is multilingual!
@@ -139,13 +139,12 @@ NAVIGATION_LINKS = {
 	("/", "Home"),
 	("/resume", "Resume"), 
 #	(
-#           (
-#                ("/blog", "Posts"),
+#         (
+#           ("/blog", "Posts"),
 #	        ("/archive.html", "Archives"),
 #         ),
 #         'Blog' 
 #     ),
-     ("https://profiles.impactstory.org/u/0000-0003-4298-168X", "ImpactStory <i class='fas fa-external-link-alt'></i>"),
      (
          (
             ("https://osf.io/7mj2q/", "Open Science Framework <i class='fas fa-external-link-alt'></i>"),
@@ -156,10 +155,10 @@ NAVIGATION_LINKS = {
      ),
      (
          (
-            ("https://octodon.social/@vickysteeves", "Mastodon <i class='fas fa-external-link-alt'></i>"),
+            ("https://octodon.social/@vickyrampin", "Mastodon <i class='fas fa-external-link-alt'></i>"),
 	        ("https://pixelfed.social/VickyZelda", "PixelFed <i class='fas fa-external-link-alt'></i>"),
-	        ("https://twitter.com/VickySteeves", "Twitter <i class='fas fa-external-link-alt'></i>"),
-            ("https://www.linkedin.com/in/victoriaisteeves/", "LinkedIn <i class='fas fa-external-link-alt'></i>"),
+	        ("https://twitter.com/VickyRampin", "Twitter <i class='fas fa-external-link-alt'></i>"),
+            ("https://www.linkedin.com/in/vickyrampin", "LinkedIn <i class='fas fa-external-link-alt'></i>"),
          ),
          'Social' 
      ),
@@ -945,7 +944,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '<div align="center"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Reproducibility, Open Research, & Librarians</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://vickysteeves.com/blog.html" property="cc:attributionName" rel="cc:attributionURL">Vicky Steeves</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></span></div><br/>'
+CONTENT_FOOTER = '<div align="center">Original content licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></div><br/>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
