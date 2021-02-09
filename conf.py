@@ -148,8 +148,8 @@ NAVIGATION_LINKS = {
      (
          (
             ("https://osf.io/7mj2q/", "Open Science Framework <i class='fas fa-external-link-alt'></i>"),
-	        ("https://gitlab.com/VickySteeves", "GitLab <i class='fas fa-external-link-alt'></i>"),
-            ("https://github.com/VickySteeves", "GitHub <i class='fas fa-external-link-alt'></i>"),
+	        ("https://gitlab.com/VickyRampin", "GitLab <i class='fas fa-external-link-alt'></i>"),
+            ("https://github.com/VickyRampin", "GitHub <i class='fas fa-external-link-alt'></i>"),
          ),
          'Data & Code' 
      ),
