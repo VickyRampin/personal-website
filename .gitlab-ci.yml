@@ -8,9 +8,12 @@ test:
 
 pages:
   script:
-    - nikola build
+  - pip3 install pybtex
+  - nikola plugin -i publication_list
+  - nikola build
   artifacts:
     paths:
     - public
   only:
   - main
+  
