@@ -2,7 +2,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
 ### About
-My website, [vickysteeves.com](http://vickysteeves.com), upgraded from coding-by-hand (n00b) to [Nikola](https://getnikola.com/), a static site generator.
+My website, [vicky.rampin.org](https://vicky.rampin.org), upgraded from coding-by-hand (n00b) to [Nikola](https://getnikola.com/), a static site generator.
 
 ### Building
 This site relies on Python and [Nikola](https://getnikola.com/), a static site generator.
@@ -26,7 +26,7 @@ Now, you can get started and install all of the dependecies of my website!
 $ pip install Nikola['extras']
 
 # clone this repo
-$ git clone git@gitlab.com:VickySteeves/personal-website.git
+$ git clone git@gitlab.com:VickyRampin/personal-website.git
 
 # change directory (cd) so you are in the right folder for the website
 $ cd personal-website
@@ -41,4 +41,4 @@ $ nikola serve -b
 You should now be able to see and interact with my website locally!
 
 ### RSS Feed
-Found here: [http://vickysteeves.com/rss.xml](http://vickysteeves.com/rss.xml)
+Found here: [https://vicky.rampin.org/rss.xml](https://vicky.rampin.org/rss.xml)

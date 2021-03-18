@@ -4,7 +4,7 @@ test:
   script:
   - nikola build
   except:
-  - master
+  - main
 
 pages:
   script:
@@ -13,4 +13,4 @@ pages:
     paths:
     - public
   only:
-  - master
+  - main

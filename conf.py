@@ -16,22 +16,23 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Vicky Rampin (née Steeves)"  # (translatable)
-BLOG_TITLE = "VICKY RAMPIN"  # (translatable)
+BLOG_AUTHOR = "Vicky Rampin"  # (translatable)
+BLOG_TITLE = "Vicky Rampin"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://vicky.rampin.org"
+SITE_URL = "https://vicky.rampin.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://vickysteeves.com/"
+# BASE_URL = "https://vicky.rampin.org/"
 BLOG_EMAIL = "vicky@rampin.org"
-BLOG_DESCRIPTION = "My sort-of professional and sort-of personal website."  # (translatable)
+BLOG_DESCRIPTION = "Vicky Rampin's website."  # (translatable)
 
 # Nikola is multilingual!
 #
 # Currently supported languages are:
 #
 # en        English
+# af        Afrikaans
 # ar        Arabic
 # az        Azerbaijani
 # bg        Bulgarian
@@ -48,17 +49,20 @@ BLOG_DESCRIPTION = "My sort-of professional and sort-of personal website."  # (t
 # fa        Persian
 # fi        Finnish
 # fr        French
+# fur       Friulian
 # gl        Galician
 # he        Hebrew
 # hi        Hindi
 # hr        Croatian
 # hu        Hungarian
+# ia        Interlingua
 # id        Indonesian
 # it        Italian
 # ja        Japanese [NOT jp]
 # ko        Korean
 # lt        Lithuanian
 # ml        Malayalam
+# mr        Marathi
 # nb        Norwegian (Bokmål)
 # nl        Dutch
 # pa        Punjabi
@@ -136,68 +140,79 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-	("/", "Home"),
-	("/resume", "Resume"), 
-#	(
-#         (
-#           ("/blog", "Posts"),
-#	        ("/archive.html", "Archives"),
-#         ),
-#         'Blog' 
-#     ),
-     (
+        ("/resume", "Resume"),
+        ("/ideas/", "Free Research Ideas"),
+        (
          (
-            ("https://osf.io/7mj2q/", "Open Science Framework <i class='fas fa-external-link-alt'></i>"),
-	        ("https://gitlab.com/VickyRampin", "GitLab <i class='fas fa-external-link-alt'></i>"),
-            ("https://github.com/VickyRampin", "GitHub <i class='fas fa-external-link-alt'></i>"),
+            ("https://osf.io/7mj2q/", "Open Science Framework ⬈"),
+	        ("https://gitlab.com/VickyRampin", "GitLab ⬈"),
+            ("https://github.com/VickyRampin", "GitHub ⬈"),
          ),
          'Data & Code' 
-     ),
-     (
-         (
-            ("https://octodon.social/@vickyrampin", "Mastodon <i class='fas fa-external-link-alt'></i>"),
-	        ("https://pixelfed.social/VickyZelda", "PixelFed <i class='fas fa-external-link-alt'></i>"),
-	        ("https://twitter.com/VickyRampin", "Twitter <i class='fas fa-external-link-alt'></i>"),
-            ("https://www.linkedin.com/in/vickyrampin", "LinkedIn <i class='fas fa-external-link-alt'></i>"),
-         ),
-         'Social' 
-     ),
-     ),
+        ),
+        (
+            (
+                ("https://octodon.social/@vickyrampin", "Mastodon ⬈"),
+                ("https://pixelfed.social/VickyZelda", "PixelFed ⬈"),
+                ("https://twitter.com/VickyRampin", "Twitter ⬈"),
+                ("https://www.linkedin.com/in/vickyrampin", "LinkedIn ⬈"),
+            ),
+            'Social' 
+        ),
+        ),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: (
-    
-    )
+    DEFAULT_LANG: ()
 }
 
 # Name of the theme to use.
 THEME = "custom"
 
-# Primary color of your theme. This will be used to customize your theme.
-# Must be a HEX value.
+# A theme color. In default themes, it might be displayed by some browsers as
+# the browser UI color (eg. Chrome on Android). Other themes might also use it
+# as an accent color (the default ones don’t). Must be a HEX value.
 THEME_COLOR = '#5670d4'
 
 # Theme configuration. Fully theme-dependent. (translatable)
+# Samples for bootblog4 (enabled) and bootstrap4 (commented) follow.
+# bootblog4 supports: featured_large featured_small featured_on_mobile
+#                     featured_large_image_on_mobile featured_strip_html sidebar
 # bootstrap4 supports: navbar_light (defaults to False)
+#                      navbar_custom_bg (defaults to '')
+
+# Config for bootblog4:
+#THEME_CONFIG = {
+#    DEFAULT_LANG: {
+#        # Show the latest featured post in a large box, with the previewimage as its background.
+#        'featured_large': False,
+#        # Show the first (remaining) two featured posts in small boxes.
+#        'featured_small': False,
+#        # Show featured posts on mobile.
+#        'featured_on_mobile': True,
+#        # Show image in `featured_large` on mobile.
+#        # `featured_small` displays them only on desktop.
+#        'featured_large_image_on_mobile': True,
+#        # Strip HTML from featured post text.
+#        'featured_strip_html': False,
+#        # Contents of the sidebar, If empty, the sidebar is not displayed.
+#        'sidebar': ''
+#    }
+#}
+
+# Config for bootstrap4:
 THEME_CONFIG = {
     DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
-        # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
-        # Show featured posts on mobile.
-        'featured_on_mobile': True,
-        # Show image in `featured_large` on mobile.
-        # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
-        # Strip HTML from featured post text.
-        'featured_strip_html': False,
-        # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
+        # Use a light navbar with dark text. Defaults to False.
+        'navbar_light': True,
+        # Use a custom navbar color. If unset, 'navbar_light' sets text +
+        # background color. If set, navbar_light controls only background
+        # color. Supported values: bg-dark, bg-light, bg-primary, bg-secondary,
+        # bg-success, bg-danger, bg-warning, bg-info, bg-white, bg-transparent.
+        'navbar_custom_bg': '',
     }
 }
 
@@ -236,10 +251,10 @@ THEME_CONFIG = {
 #     )
 
 POSTS = (
-    ("posts/*.rst", "blog", "post.tmpl"),
-    ("posts/*.md", "blog", "post.tmpl"),
-    ("posts/*.txt", "blog", "post.tmpl"),
-    ("posts/*.html", "blog", "post.tmpl"),
+    ("posts/*.rst", "ideas", "post.tmpl"),
+    ("posts/*.md", "ideas", "post.tmpl"),
+    ("posts/*.txt", "ideas", "post.tmpl"),
+    ("posts/*.html", "ideas", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "", "page.tmpl"),
@@ -266,19 +281,22 @@ TIMEZONE = "America/New_York"
 # FORCE_ISO8601 = False
 
 # Date format used to display post dates. (translatable)
-# Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
+# Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time-1/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-# DATE_FORMAT = 'YYYY-MM-dd HH:mm'
+# DATE_FORMAT = 'yyyy-MM-dd HH:mm'
 
 # Date format used to display post dates, if local dates are used. (translatable)
-# Used by moment.js: https://momentjs.com/docs/#/displaying/format/
-# JS_DATE_FORMAT = 'YYYY-MM-DD HH:mm'
+# Used by Luxon: https://moment.github.io/luxon/docs/manual/formatting
+# Example for presets: {'preset': True, 'format': 'DATE_FULL'}
+# LUXON_DATE_FORMAT = {
+#     DEFAULT_LANG: {'preset': False, 'format': 'yyyy-MM-dd HH:mm'},
+# }
 
 # Date fanciness.
 #
-# 0 = using DATE_FORMAT and TIMEZONE
-# 1 = using JS_DATE_FORMAT and local user time (via moment.js)
-# 2 = using a string like “2 days ago”
+# 0 = using DATE_FORMAT and TIMEZONE (without JS)
+# 1 = using LUXON_DATE_FORMAT and local user time (JS, using Luxon)
+# 2 = using a string like “2 days ago” (JS, using Luxon)
 #
 # Your theme must support it, Bootstrap already does.
 # DATE_FANCINESS = 0
@@ -303,27 +321,34 @@ TIMEZONE = "America/New_York"
 # Feel free to add or delete extensions to any list, but don't add any new
 # compilers unless you write the interface for it yourself.
 #
+# The default compiler for `new_post` is the first entry in the POSTS tuple.
+#
 # 'rest' is reStructuredText
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": ['.rst', '.txt'],
+    "markdown": ['.md', '.mdown', '.markdown'],
+    "textile": ['.textile'],
+    "txt2tags": ['.t2t'],
+    "bbcode": ['.bb'],
+    "wiki": ['.wiki'],
+    "ipynb": ['.ipynb'],
+    "html": ['.html', '.htm'],
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": ['.php'],
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
-    # "pandoc": ('.rst', '.md', '.txt'),
+    # "pandoc": ['.rst', '.md', '.txt'],
 }
+
+# Enable reST directives that insert the contents of external files such
+# as "include" and "raw." This maps directly to the docutils file_insertion_enabled
+# config. See: https://docutils.sourceforge.io/docs/user/config.html#file-insertion-enabled
+# REST_FILE_INSERTION_ENABLED = True
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -356,8 +381,18 @@ COMPILERS = {
 # The URL may be relative to the site root.
 # LOGO_URL = ''
 
+# When linking posts to social media, Nikola provides Open Graph metadata
+# which is used to show a nice preview. This includes an image preview
+# taken from the post's previewimage metadata field.
+# This option lets you use an image to be used if the post doesn't have it.
+# The default is None, valid values are URLs or output paths like
+# "/images/foo.jpg"
+# DEFAULT_PREVIEW_IMAGE = None
+
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
+# Note: if your logo is a SVG image, and you set SHOW_BLOG_TITLE = False,
+# you should explicitly set a height for #logo in CSS.
 # SHOW_BLOG_TITLE = True
 
 # Paths for different autogenerated bits. These are combined with the
@@ -387,7 +422,7 @@ COMPILERS = {
 # and displayed underneath the tag list or index page’s title.
 # TAG_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
-#        "blogging": "Meta-blog posts about blogging about blogging.",
+#        "blogging": "Meta-blog posts about blogging.",
 #        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
 #    },
 # }
@@ -460,7 +495,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # and displayed underneath the category list or index page’s title.
 # CATEGORY_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
-#        "blogging": "Meta-blog posts about blogging about blogging.",
+#        "blogging": "Meta-blog posts about blogging.",
 #        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
 #    },
 # }
@@ -550,21 +585,24 @@ HIDDEN_CATEGORIES = []
 # Tag pages will still be generated.
 HIDDEN_AUTHORS = ['Guest']
 
+# Allow multiple, comma-separated authors for a post? (Requires theme support, present in built-in themes)
+# MULTIPLE_AUTHORS_PER_POST = False
+
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-INDEX_PATH = "blog"
+INDEX_PATH = "ideas"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
+    DEFAULT_LANG: '<h1>Free Research Ideas</h1><p class="text-muted mb-4 h4">Free research ideas licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Take any idea and run with it, just please cite me as the ideator!</p>'
 }
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-CREATE_SINGLE_ARCHIVE = True
+# CREATE_SINGLE_ARCHIVE = False
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
 # CREATE_FULL_ARCHIVES = False
@@ -577,6 +615,7 @@ CREATE_SINGLE_ARCHIVE = True
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / DAY / index.html
+# (translatable)
 # ARCHIVE_PATH = ""
 # ARCHIVE_FILENAME = "archive.html"
 
@@ -758,7 +797,16 @@ THUMBNAIL_SIZE = 180
 MAX_IMAGE_SIZE = 1280
 USE_FILENAME_AS_TITLE = True
 # EXTRA_IMAGE_EXTENSIONS = []
-#
+
+# Use a thumbnail (defined by ".. previewimage:" in the gallery's index) in
+# list of galleries for each gallery
+GALLERIES_USE_THUMBNAIL = False
+
+# Image to use as thumbnail for those galleries that don't have one
+# None: show a grey square
+# '/url/to/file': show the image in that url
+GALLERIES_DEFAULT_THUMBNAIL = None
+
 # If set to False, it will sort by filename instead. Defaults to True
 GALLERY_SORT_BY_DATE = True
 
@@ -822,7 +870,7 @@ GALLERY_SORT_BY_DATE = True
 # but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
 
 IMAGE_FOLDERS = {'images': 'images'}
-IMAGE_THUMBNAIL_SIZE = 400
+# IMAGE_THUMBNAIL_SIZE = 400
 # IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
 # #############################################################################
@@ -834,7 +882,7 @@ IMAGE_THUMBNAIL_SIZE = 400
 # depending on the value of INDEXES_PAGES_MAIN.
 #
 # (translatable) If the following is empty, defaults to BLOG_TITLE:
-# INDEXES_TITLE = ""
+INDEXES_TITLE = "FREE RESEARCH IDEAS"
 #
 # (translatable) If the following is empty, defaults to ' [old posts,] page %d' (see above):
 INDEXES_PAGES = " page %d"
@@ -883,22 +931,23 @@ INDEXES_STATIC = False
 # META_GENERATOR_TAG = True
 
 # Color scheme to be used for code blocks. If your theme provides
-# "assets/css/code.css" this is ignored. Leave empty to disable.
+# "assets/css/code.css" this is ignored. Set to None to disable.
 # Can be any of:
 # algol, algol_nu, autumn, borland, bw, colorful, default, emacs, friendly,
 # fruity, igor, lovelace, manni, monokai, murphy, native, paraiso-dark,
 # paraiso-light, pastie, perldoc, rrt, tango, trac, vim, vs, xcode
 # This list MAY be incomplete since pygments adds styles every now and then.
 # Check with list(pygments.styles.get_all_styles()) in an interpreter.
+#
 # CODE_COLOR_SCHEME = 'default'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
-     ("icon", "/favicon.ico", "16x16"),
-     ("icon", "/icon_128x128.png", "128x128"),
- )
+    ("icon", "/favicon.ico", "16x16"),
+    ("icon", "/icon_128x128.png", "128x128"),
+)
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
 INDEX_TEASERS = True
@@ -944,7 +993,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '<div align="center">Original content licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></div><br/>'
+CONTENT_FOOTER = 'Contents © {date} <a href="mailto:{email}">{author}</a>. <a href="/ideas/">Free Research Ideas</a> licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -973,13 +1022,13 @@ CONTENT_FOOTER_FORMATS = {
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents CC-BY-NC-SA {date} <a href="mailto:{email}">{author}</a> CC-BY-NC-SA'
-RSS_COPYRIGHT_PLAIN = 'Contents CC-BY-NC-SA {date} {author}'
+RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a>. Free Research Ideas licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.'
+RSS_COPYRIGHT_PLAIN = 'Contents © {date} <a href="mailto:{email}">{author}</a>. Free Research Ideas licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.'
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
 # To use comments, you can choose between different third party comment
 # systems.  The following comment systems are supported by Nikola:
-#   disqus, facebook, intensedebate, isso, livefyre, muut
+#   disqus, facebook, intensedebate, isso, muut, commento, utterances
 # You can leave this option blank to disable comments.
 COMMENT_SYSTEM = ""
 # And you also need to add your COMMENT_SYSTEM_ID which
@@ -1024,7 +1073,7 @@ PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
-# FUTURE_IS_NOW = False
+FUTURE_IS_NOW = False
 
 # If True, future dated posts are allowed in deployed output
 # Only the individual posts are published/deployed; not in indexes/sitemap
@@ -1034,12 +1083,12 @@ DEPLOY_FUTURE = False
 DEPLOY_DRAFTS = False
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
-# Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
+# Specify an iCal Recurrence Rule: https://www.kanzaki.com/docs/ical/rrule.html
 # SCHEDULE_RULE = ''
 # If True, use the scheduling rule to all posts (not pages!) by default
 # SCHEDULE_ALL = False
 
-# Do you want a add a Mathjax config file?
+# Do you want to add a Mathjax config file?
 # MATHJAX_CONFIG = ""
 
 # If you want support for the $.$ syntax (which may conflict with running
@@ -1064,7 +1113,7 @@ DEPLOY_DRAFTS = False
 # feature yet, it's faster and the output looks better.
 # USE_KATEX = False
 
-# KaTeX auto-render settings. If you want support for the $.$ syntax (wihch may
+# KaTeX auto-render settings. If you want support for the $.$ syntax (which may
 # conflict with running text!), just use this config:
 # KATEX_AUTO_RENDER = """
 # delimiters: [
@@ -1080,14 +1129,15 @@ DEPLOY_DRAFTS = False
 # IPYNB_CONFIG = {}
 # With the following example configuration you can use a custom jinja template
 # called `toggle.tpl` which has to be located in your site/blog main folder:
-# IPYNB_CONFIG = {'Exporter':{'template_file': 'toggle'}}
+# IPYNB_CONFIG = {'Exporter': {'template_file': 'toggle'}}
 
 # What Markdown extensions to enable?
 # You will also get gist, nikola and podcast because those are
 # done in the code, hope you don't mind ;-)
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
-# The default is ['fenced_code', 'codehilite']
+# Defaults are markdown.extensions.(fenced_code|codehilite|extra)
+# markdown.extensions.meta is required for Markdown metadata.
 MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
@@ -1095,9 +1145,17 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # MARKDOWN_EXTENSION_CONFIGS = {}
 
 
-# Extra options to pass to the pandoc command.
-# by default, it's empty, is a list of strings, for example
-# ['-F', 'pandoc-citeproc', '--bibliography=/Users/foo/references.bib']
+# Extra options to pass to the pandoc command, empty by default.
+# It can be a list of strings or a dict (keys are file extensions).
+# Example for a list of strings (used for all extensions):
+# PANDOC_OPTIONS = ['-F', 'pandoc-citeproc', '--bibliography=/Users/foo/references.bib']
+# Example for a dict, where the keys are the extensions in COMPILERS['pandoc']:
+# COMPILERS['pandoc'] = ['.rst', '.md', '.txt']
+# PANDOC_OPTIONS = {
+#     '.rst': ['-t', 'rst'],
+#     '.md': ['-t', 'markdown'],
+#     '.txt': ['-t', 'markdown-raw_html'],
+# }
 # Pandoc does not demote headers by default.  To enable this, you can use, for example
 # ['--base-header-level=2']
 # PANDOC_OPTIONS = []
@@ -1128,7 +1186,7 @@ SHOW_SOURCELINK = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-INDEX_DISPLAY_POST_COUNT = 6
+# INDEX_DISPLAY_POST_COUNT = 10
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
@@ -1255,7 +1313,7 @@ BODY_END = """
 # FILE_METADATA_REGEXP = None
 
 # Should titles fetched from file metadata be unslugified (made prettier?)
-FILE_METADATA_UNSLUGIFY_TITLES = True
+# FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # If enabled, extract metadata from docinfo fields in reST documents.
 # If your text files start with a level 1 heading, it will be treated as the
@@ -1267,7 +1325,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Map metadata from other formats to Nikola names.
 # Supported formats: yaml, toml, rest_docinfo, markdown_metadata
-# METADATA_MAPPING = {}
+## METADATA_MAPPING = {}
 #
 # Example for Pelican compatibility:
 # METADATA_MAPPING = {
@@ -1289,16 +1347,16 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 #      }
 # }
 
+# Add any post types here that you want to be displayed without a title.
+# If your theme supports it, the titles will not be shown.
+# TYPES_TO_HIDE_TITLE = []
+
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
 
 # Nikola supports Twitter Card summaries, but they are disabled by default.
 # They make it possible for you to attach media to Tweets that link
 # to your content.
-#
-# IMPORTANT:
-# Please note, that you need to opt-in for using Twitter Cards!
-# To do this please visit https://cards-dev.twitter.com/validator
 #
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
